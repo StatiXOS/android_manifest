@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+  <!-- StatiXOS git -->
+  <remote  name="statix"
+           fetch="https://github.com/StatiXOS"
+           revision="8.1" />
+
+  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3" remote="github" revision="o-mr1" />
+  <project path="packages/apps/Phonograph" name="ezio84/Phonograph" remote="github" revision="o2" />
+  <project path="kernel/huawei/angler" name="android-linux-stable/angler" remote="github" revision="android-msm-angler-3.10-oreo-m5" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.1" />
+  <project path="vendor/huawei" name="ezio84/abc_vendor_huawei" remote="github" revision="o2" />
+  
+  <!-- StatiXOS repos -->
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="statix" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="build/make" name="android_build_make" remote="statix" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project> 
+  <project path="build/soong" name="android_build_soong" remote="statix" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="android_manifest" remote="statix" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+
+</manifest>
