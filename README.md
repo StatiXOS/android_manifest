@@ -2,7 +2,7 @@
 
 Repo init command:
 
-	repo init -u https://github.com/anayw2001/static_manifest.git -b 8.1-linux
+	repo init -u https://github.com/StatiXOS/android_manifest.git -b 8.1-linux
 
 Sync Source
 
