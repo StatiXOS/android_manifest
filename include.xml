@@ -36,4 +36,5 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="o8x" />
   <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="o8x" />
+  <project path="packages/apps/Sparks" name="android_packages_apps_Sparks" remote="statix" />
 </manifest>
