@@ -11,5 +11,5 @@ Sync Source
 To build (Linux x86_64 ONLY):
 
         . build/envsetup.sh
-        lunch aosp_angler-userdebug
+        lunch statix_angler-userdebug
         time m -j6 bacon
