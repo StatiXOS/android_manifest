@@ -91,9 +91,6 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-  <!-- Recovery repo -->
-  <remove-project name="platform/bootable/recovery" />
-
   <!-- fwb -->
   <remove-project name="platform/frameworks/base" />
   
