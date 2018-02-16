@@ -9,10 +9,9 @@
            fetch="https://github.com/StatiXOS"
            revision="8.1" />
 
-  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3" remote="github" revision="o-mr1" />
+  <project path="packages/apps/Launcher3" name="GZOSP/packages_apps_Launcher3" remote="github" revision="8.1" />
   <project path="packages/apps/Phonograph" name="ezio84/Phonograph" remote="github" revision="o2" />
   <project path="kernel/huawei/angler" name="android-linux-stable/angler" remote="github" revision="android-msm-angler-3.10-oreo-m5" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.1" />
   <project path="vendor/huawei" name="ezio84/abc_vendor_huawei" remote="github" revision="o2" />
   
   <!-- StatiXOS repos -->
