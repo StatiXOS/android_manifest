@@ -4,7 +4,6 @@
   <!-- Device repos -->
   <remove-project name="device/asus/fugu" />
   <remove-project name="device/asus/fugu-kernel" />
-  <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
