@@ -11,6 +11,8 @@
 
   <project path="packages/apps/Launcher3" name="GZOSP/packages_apps_Launcher3" revision="8.1" />
   <project path="vendor/huawei" name="ezio84/abc_vendor_huawei" remote="github" revision="o2" />
+  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="o8x" />
+  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="o8x" />
   
   <!-- StatiXOS repos -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
@@ -32,8 +34,7 @@
   </project>
   <project path="manifest" name="StatiXOS/android_manifest" remote="github" revision="8.1-linux" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
-  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="o8x" />
-  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="o8x" />
   <project path="packages/apps/Sparks" name="android_packages_apps_Sparks" remote="statix" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-aarch64-linux-gnu-7.2.1" name="android_prebuilts_gcc_aarch64-7.2.1-linaro" remote="statix" revision="master" />  
+  <project path="system/extras" name="android_system_extras" remote="statix" />
 </manifest>

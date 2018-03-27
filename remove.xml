@@ -97,4 +97,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build" />
 
+  <!-- System repos -->
+  <remove-project name="platform/system/extras" />
+
 </manifest>
