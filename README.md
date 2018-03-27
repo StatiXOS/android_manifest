@@ -1,4 +1,4 @@
-# static_manifest
+# manifest
 
 Repo init command:
 
@@ -11,5 +11,5 @@ Sync Source
 To build (Linux x86_64 ONLY):
 
         . build/envsetup.sh
-        lunch statix_angler-userdebug
+        lunch statix_angler-userdebug (or statix_angler-user)
         time m -j6 bacon
