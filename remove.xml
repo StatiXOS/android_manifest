@@ -92,6 +92,7 @@
 
   <!-- fwb -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
   
   <!-- Build repos -->
   <remove-project name="platform/build/soong" />
