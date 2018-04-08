@@ -18,6 +18,7 @@
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="statix" revision="8.1" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="statix" revision="8.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="8.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="statix" revision="8.1" />
   <project path="build/make" name="android_build" remote="statix" revision="8.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
