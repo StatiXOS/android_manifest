@@ -35,7 +35,7 @@
   <project path="manifest" name="StatiXOS/android_manifest" remote="github" revision="8.1-linux" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" revision="8.1" />
   <project path="packages/apps/Sparks" name="android_packages_apps_Sparks" remote="statix" revision="8.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.2.1" name="android_prebuilts_gcc_aarch64-7.2.1-linaro" remote="statix" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilts_gcc_aarch64-linux-gnu" remote="statix" revision="master" />  
   <project path="system/extras" name="android_system_extras" remote="statix" revision="8.1" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="8.1" />
 </manifest>
