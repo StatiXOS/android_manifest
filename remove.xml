@@ -81,7 +81,8 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
-  <!-- fwb -->
+  <!-- Framework repos -->
+  <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   
