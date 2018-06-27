@@ -10,8 +10,7 @@
 
   <project path="packages/apps/Launcher3" name="DirtyUnicorns/android_packages_apps_Launcher3" revision="o8x" remote="github" />
   <project path="vendor/huawei" name="ezio84/abc_vendor_huawei" remote="github" revision="o2" />
-  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="o8x" />
-  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="o8x" />
+  <project path="external/DUI" name="DirtyUnicorns/android_external_DUI" remote="github" revision="o8x" />
   
   <!-- StatiXOS repos -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="8.1" />
