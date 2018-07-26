@@ -6,10 +6,10 @@ Repo init command:
 
 Sync Source
 
-	repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all)
+	repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
 To build (Linux x86_64 ONLY):
 
         . build/envsetup.sh
-        lunch statix_angler-userdebug (or statix_angler-user)
+        lunch statix_<DEVICE>-userdebug (or statix_<DEVICE>-user)
         time m -j6 bacon
