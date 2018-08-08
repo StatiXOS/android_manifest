@@ -22,6 +22,7 @@
 
   <!-- framework repos -->
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />

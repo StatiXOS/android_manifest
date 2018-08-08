@@ -22,6 +22,7 @@
   </project>
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="9" />
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" revision="9" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="statix" revision="9" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
 
   <!-- device stuff -->
