@@ -5,7 +5,7 @@
            fetch="https://github.com/" />
   <!-- StatiXOS git -->
   <remote  name="statix"
-           fetch="https://gitlab.com/StatiXOS" />
+           fetch="https://github.com/StatiXOS" />
 
   <project path="build/make" name="android_build" remote="statix" revision="9" >
     <copyfile src="core/root.mk" dest="Makefile" />
