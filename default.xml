@@ -697,5 +697,9 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <!-- include custom manifests -->
+  <include name="remove.xml" />
+  <include name="include.xml" />
 
 </manifest>
