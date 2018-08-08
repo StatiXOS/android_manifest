@@ -23,4 +23,7 @@
   <!-- framework repos -->
   <remove-project name="platform/frameworks/av" />
 
+  <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/build-tools" />
+
 </manifest>
