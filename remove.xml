@@ -21,6 +21,6 @@
   <remove-project name="device/sample" />
 
   <!-- framework repos -->
-  <remove-project name="frameworks/av" />
+  <remove-project name="platform/frameworks/av" />
 
 </manifest>
