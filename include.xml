@@ -21,5 +21,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="9" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="statix" revision="9" />
+
+  <!-- device stuff -->
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="statix" revision="9" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" remote="statix" revision="9" />
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="statix" revision="9" />
+
 
 </manifest>
