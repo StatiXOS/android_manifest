@@ -25,6 +25,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="9" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="statix" revision="9" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
+  <project path="bionic" name="android_bionic" remote="statix" revision="9" />
 
   <!-- device stuff -->
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="statix" revision="9" />
