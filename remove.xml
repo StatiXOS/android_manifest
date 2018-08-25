@@ -29,6 +29,7 @@
 
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
