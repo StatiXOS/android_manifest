@@ -26,6 +26,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="9" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="statix" revision="9" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" revision="9" />
+  <project path="packages/apps/Sparks" name="android_packages_apps_Sparks" remote="statix" revision="9" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
   <project path="bionic" name="android_bionic" remote="statix" revision="9" />
 
