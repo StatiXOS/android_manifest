@@ -31,6 +31,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
