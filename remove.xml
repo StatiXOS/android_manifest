@@ -3,6 +3,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  
     <!-- Device repos -->
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
@@ -29,8 +30,10 @@
 
   <!-- Apps -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
+ 
 
 </manifest>
