@@ -36,4 +36,7 @@
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
 
+  <!-- System -->
+  <remove-project name="platform/system/extras" /> 
+
 </manifest>
