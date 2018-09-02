@@ -3,9 +3,14 @@
   <!-- Github remote -->
   <remote  name="github"
            fetch="https://github.com/" />
+
   <!-- StatiXOS git -->
   <remote  name="statix"
            fetch="https://github.com/StatiXOS" />
+
+  <!-- CAF remote -->
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/" />
 
   <project path="build/make" name="android_build" remote="statix" revision="9" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -31,4 +36,28 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
   <project path="bionic" name="android_bionic" remote="statix" revision="9" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
+
+  <!-- CAF -->
+  <!-- Hardware repos -->
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="9-caf-8998" remote="statix" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="9-caf-8998" remote="statix"  />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="9-caf-8998" remote="statix" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" revision="9-caf" remote="statix" />  
+  <project path="hardware/libhardware" name="android_hardware_libhardware" revision="9-caf" remote="statix" />
+
+  <!-- external repos -->
+  <project path="external/bson" name="external/gigabyte/platform/external/bson" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
+  <project path="external/libncurses" name="android_external_libncurses" revision="9" remote="statix" />
+  <project path="external/perfetto" name="android_external_perfetto" revision="9" remote="statix" />
+  <project path="external/tinycompress" name="android_external_tinycompress" revision="9" remote="statix" />
+
+  <!-- System repos -->
+  <project path="system/core" name="android_system_core" revision="9" remote="statix" />
+  
 </manifest>
