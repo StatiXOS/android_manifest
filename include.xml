@@ -44,7 +44,7 @@
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="9-caf-8998" remote="statix" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" revision="9-caf" remote="statix" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="9-caf" remote="statix" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" revision="9-caf" remote="statix" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" revision="9-caf" remote="statix" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_audio" revision="9-caf" remote="statix" />
