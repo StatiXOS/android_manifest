@@ -53,11 +53,11 @@
 
   <!-- external repos -->
   <project path="external/bson" name="external/gigabyte/platform/external/bson" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
-  <project path="external/libncurses" name="android_external_libncurses" revision="9" remote="statix" />
-  <project path="external/perfetto" name="android_external_perfetto" revision="9" remote="statix" />
-  <project path="external/tinycompress" name="android_external_tinycompress" revision="9" remote="statix" />
+  <project path="external/libncurses" name="android_external_libncurses" revision="9-caf" remote="statix" />
+  <project path="external/perfetto" name="android_external_perfetto" revision="9-caf" remote="statix" />
+  <project path="external/tinycompress" name="android_external_tinycompress" revision="9-caf" remote="statix" />
 
   <!-- System repos -->
-  <project path="system/core" name="android_system_core" revision="9" remote="statix" />
+  <project path="system/core" name="android_system_core" revision="9-caf" remote="statix" />
   
 </manifest>
