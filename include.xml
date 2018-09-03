@@ -60,4 +60,9 @@
   <!-- System repos -->
   <project path="system/core" name="android_system_core" revision="9-caf" remote="statix" />
   
+  <!-- qcom stuffses -->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="9-caf" remote="statix" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
+  
+
 </manifest>
