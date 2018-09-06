@@ -58,4 +58,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
 
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+
 </manifest>

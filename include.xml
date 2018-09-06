@@ -67,4 +67,5 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="9-caf" remote="statix" />  
 
+  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9-caf" />
 </manifest>
