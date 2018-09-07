@@ -63,6 +63,6 @@
   <!-- qcom stuffses -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="9-caf" remote="statix" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
-  
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="9-caf" remote="statix" />  
 
 </manifest>
