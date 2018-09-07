@@ -39,6 +39,6 @@
  
   <!-- system repos -->
   <remove-project name="platform/system/extras" />
- 
+  <remove-project name="platform/system/vold" /> 
 
 </manifest>
