@@ -29,7 +29,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" revision="9" />
   <project path="packages/apps/Sparks" name="android_packages_apps_Sparks" remote="statix" revision="9" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
-  <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
+  <project path="bionic" name="android_bionic" remote="statix" revision="9" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/vold" name="android_system_vold" remote="statix" revision="9" />
   <project path="manifest" name="android_manifest" remote="statix" revision="9" />
