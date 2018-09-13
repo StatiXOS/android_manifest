@@ -19,7 +19,6 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/sample" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
