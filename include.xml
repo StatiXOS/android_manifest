@@ -55,6 +55,7 @@
 
   <!-- external repos -->
   <project path="external/bson" name="external/gigabyte/platform/external/bson" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
+  <project path="external/json-c" name="android_external_json-c" remote="statix" revision="9-caf" />
   <project path="external/libncurses" name="android_external_libncurses" revision="9-caf" remote="statix" />
   <project path="external/perfetto" name="android_external_perfetto" revision="9-caf" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" revision="9-caf" remote="statix" />
@@ -64,6 +65,10 @@
   
   <!-- qcom stuffses -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="9-caf" remote="statix" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" revision="9-caf" remote="statix" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" revision="9-caf" remote="statix" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" revision="9-caf" remote="statix" />
+  <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" revision="9-caf" remote="statix" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="9-caf" remote="statix" />  
 
