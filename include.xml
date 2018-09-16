@@ -38,6 +38,7 @@
   <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="9" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="9" />
   <project path="manifest" name="android_manifest" remote="statix" revision="9-caf" />
 
   <!-- CAF -->
