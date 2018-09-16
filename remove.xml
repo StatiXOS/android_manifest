@@ -41,7 +41,9 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/vold" /> 
 
-<!-- External -->
-<remove-project name="platform/external/selinux" />
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
 
+  <!-- recovery -->
+  <remove-project name="platform/bootable/recovery" />
 </manifest>
