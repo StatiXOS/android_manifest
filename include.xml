@@ -57,6 +57,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="9" remote="statix" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" revision="9-caf" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" revision="9-caf" remote="statix" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" revision="9-caf" remote="statix" />
 
   <!-- external repos -->
   <project path="external/bson" name="external/gigabyte/platform/external/bson" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
