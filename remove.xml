@@ -44,6 +44,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
@@ -53,7 +54,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/power" />
-  
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
