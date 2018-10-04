@@ -33,6 +33,8 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
