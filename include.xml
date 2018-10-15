@@ -37,4 +37,8 @@
   <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9" />
   <!-- track our modified recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="9" />
+
+  <!-- track our hardware/broadcom/wlan -->
+  <project patch="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="statix" revision="9" />
+
 </manifest>
