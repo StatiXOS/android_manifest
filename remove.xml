@@ -49,5 +49,5 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- hardware/broadcom/wlan -->
-  <remove-project name="hardware/broadcom/wlan" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
 </manifest>
