@@ -1,15 +1,20 @@
-# manifest
+# StatiXOS
+[<center><img src="https://i.imgur.com/AAiKUl0.png" height="50%" width="50%;"/></center>](https://github.com/StatiXOS)
 
-Repo init command:
+## Building Android ##
+[Setting Up Build Enviornment](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt)
 
-	repo init -u https://github.com/StatiXOS/android_manifest.git -b 9
-
-Sync Source
-
-	repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
-
-To build (Linux x86_64 ONLY):
-
-        . build/envsetup.sh
-        lunch statix_<DEVICE>-userdebug (or statix_<DEVICE>-user)
-        time m -j6 bacon
+## Repo Init ##
+```bash
+repo init -u https://github.com/StatiXOS/android_manifest.git -b 9-caf
+```
+## Sync Source ##
+```bash
+repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+```
+## Build Time (Linux x86_64 ONLY) ##
+```bash
+. build/envsetup.sh
+lunch statix_<DEVICE>-userdebug (or statix_<DEVICE>-user)
+time m -j6 bacon
+```
