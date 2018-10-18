@@ -39,6 +39,8 @@
 
   <project path="manifest" name="android_manifest" remote="statix" revision="9" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9" />
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="statix" revision="9" />
+
   <!-- track our modified recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="9" />
 
