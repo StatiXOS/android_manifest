@@ -67,6 +67,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/drm_hwcomposer" />
 
   <!-- recovery -->
   <remove-project name="platform/bootable/recovery" />
