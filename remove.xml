@@ -15,6 +15,9 @@
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_common" />
