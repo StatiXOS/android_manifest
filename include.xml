@@ -40,6 +40,9 @@
   <project path="manifest" name="android_manifest" remote="statix" revision="9" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9" />
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="statix" revision="9" />
+  
+  <!-- Hardware repos -->
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" revision="9" remote="statix" />
 
   <!-- track our modified recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="9" />

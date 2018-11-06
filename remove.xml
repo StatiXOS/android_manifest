@@ -52,4 +52,7 @@
 
   <!-- hardware/broadcom/wlan -->
   <remove-project name="platform/hardware/broadcom/wlan" />
+  
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
 </manifest>
