@@ -34,6 +34,7 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/DeskClock" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
