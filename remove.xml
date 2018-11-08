@@ -34,6 +34,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
