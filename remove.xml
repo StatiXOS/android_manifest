@@ -35,6 +35,7 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
