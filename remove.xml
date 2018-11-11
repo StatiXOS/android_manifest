@@ -36,6 +36,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
