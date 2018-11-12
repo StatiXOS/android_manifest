@@ -26,11 +26,15 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="9" />
+
+  <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" revision="9-caf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="9" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="9" />
   <project path="frameworks/support" name="android_frameworks_support" remote="statix" revision="9" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="statix" revision="9" />
+
+  <!-- Package repos -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" revision="9" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" revision="9" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="statix" revision="9" />
@@ -41,6 +45,8 @@
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
   <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
+
+  <!-- system repos -->
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="9" />
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="statix" revision="9" />
@@ -77,6 +83,7 @@
   <project path="external/libncurses" name="android_external_libncurses" revision="9-caf" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" revision="9-caf" remote="statix" />
   <project path="external/perfetto" name="android_external_perfetto" revision="9-caf" remote="statix" />
+  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9-caf" />
   <project path="external/tinycompress" name="android_external_tinycompress" revision="9-caf" remote="statix" />
 
   <!-- System repos -->
@@ -92,8 +99,6 @@
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" revision="9-caf" remote="statix" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="9-caf" remote="statix" />  
-
-  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9-caf" />
 
   <!-- Apps -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" revision="9-caf" remote="statix" />
