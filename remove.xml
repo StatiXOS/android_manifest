@@ -31,12 +31,24 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/Test/connectivity" />
+  <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/screensavers/WebView" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -44,8 +56,24 @@
   <!-- External -->
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/drm_hwcomposer" />
   
   <!-- Hardware -->
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm" />
+  <remove-project name="platform/hardware/intel/common/omx-components" />
+  <remove-project name="platform/hardware/intel/common/utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="platform/hardware/intel/img/psb_headers" />
+  <remove-project name="platform/hardware/intel/img/psb_video" />
+  <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
@@ -69,10 +97,6 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
-
-  <!-- External -->
-  <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/drm_hwcomposer" />
 
   <!-- recovery -->
   <remove-project name="platform/bootable/recovery" />
