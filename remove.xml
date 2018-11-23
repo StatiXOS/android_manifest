@@ -35,6 +35,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Settings" />

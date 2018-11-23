@@ -37,6 +37,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="9" />
   <project path="frameworks/support" name="android_frameworks_support" remote="statix" revision="9" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="statix" revision="9" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" revision="9" />
 
   <!-- Package repos -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" revision="9" />
