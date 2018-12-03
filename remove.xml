@@ -72,7 +72,6 @@
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/broadcom/wlan" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
