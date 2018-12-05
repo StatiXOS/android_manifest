@@ -42,7 +42,7 @@
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="statix" revision="9" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="statix" revision="9" />
   <!-- SmartNav -->
-  <project path="packages/apps/SmartNav" name="InvictrixRom/packages_apps_SmartNav" remote="github" revision="inv-9.0" />
+  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="statix" revision="9" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="statix" revision="9" />
 
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
