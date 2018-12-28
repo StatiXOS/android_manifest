@@ -61,7 +61,8 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/services/Telephony" />
- 
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+
   <!-- System repos -->
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/vold" /> 
