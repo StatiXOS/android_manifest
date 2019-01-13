@@ -3,10 +3,20 @@
 ## Building Android ##
 [Setting Up Build Environment](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt)
 
+## REMINDER ##
+Be sure to check the manifest branch depending on your device.
+
 ## Repo Init ##
 ```bash
 repo init -u https://github.com/StatiXOS/android_manifest.git -b 9
 ```
+
+### OR ###
+```bash
+repo init -u https://github.com/StatiXOS/android_manifest.git -b 9-caf
+```
+depending on your device.
+
 ## Sync Source ##
 ```bash
 repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
