@@ -41,11 +41,20 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -60,6 +69,7 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
