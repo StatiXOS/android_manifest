@@ -84,6 +84,7 @@
   <remove-project name="platform/external/drm_hwcomposer" />
   
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
