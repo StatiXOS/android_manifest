@@ -12,6 +12,7 @@
   <project path="manifest" name="android_manifest" remote="statix" revision="9" />
 
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="9" />
+  <project path="vendor/support" name="android_vendor_support" remote="statix" revision="9" />
 
   <!-- GitLab remote -->
   <remote name="gitlab"
@@ -63,6 +64,9 @@
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="statix" revision="9" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="statix" revision="9" />
 
+  <!-- CustomDoze -->
+  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="statix" revision="9" />
+  
   <!-- System repos --> 
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/vold" name="android_system_vold" remote="statix" revision="9" />
