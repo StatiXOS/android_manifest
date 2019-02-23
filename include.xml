@@ -63,7 +63,12 @@
   <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="9" />
+
+  <!-- External repos -->
+  <project path="external/google" name="android_external_google" remote="statix" revision="9" />
+  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9-caf" />
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="statix" revision="9" />
+
   <project path="manifest" name="android_manifest" remote="statix" revision="9-caf" />
 
   <!-- track our modified recovery -->
@@ -116,8 +121,6 @@
   <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" revision="9-caf" remote="statix" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="9-caf" remote="statix" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="9-caf" remote="statix" />  
-
-  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9-caf" />
 
   <!-- Apps -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" revision="9-caf" remote="statix" />
