@@ -76,7 +76,7 @@
 
   <!-- CAF -->
   <!-- Hardware repos -->
-  <project path="hardware/ril" name="android_hardware_ril" revision="9" remote="statix" />
+  <project path="hardware/ril" name="android_hardware_ril" revision="9-caf" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" revision="9-caf" remote="statix" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="9-caf-8996" remote="statix" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="9-caf-8996" remote="statix"  />
