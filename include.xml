@@ -33,6 +33,7 @@
   <project path="vendor/support" name="android_vendor_support" remote="statix" revision="9" />
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" revision="9-caf" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="9" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="statix" revision="9-caf" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" revision="9-caf" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="9" />
   <project path="frameworks/support" name="android_frameworks_support" remote="statix" revision="9" />
