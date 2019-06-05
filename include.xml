@@ -4,7 +4,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- StatiXOS git -->
+  <!-- StatiXOS GitHub -->
   <remote  name="statix"
            fetch="https://github.com/StatiXOS" />
 
@@ -14,7 +14,7 @@
 
   <!-- GitLab remote -->
   <remote name="gitlab"
-          fetch="https://gitlab.com/statixos" />
+          fetch="https://gitlab.com/" />
 
   <project path="build/make" name="android_build" remote="statix" revision="9" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -60,7 +60,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
-  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="9" />
+  <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="9" />
 
   <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
