@@ -9,7 +9,7 @@ repo init -u https://github.com/StatiXOS/android_manifest.git -b 9-caf
 ```
 ## Sync Source ##
 ```bash
-repo sync -c -f --force-sync --no-tag --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+repo sync --force-sync -j$( nproc --all )
 ```
 ## Build Time (Linux x86_64 ONLY) ##
 ```bash
