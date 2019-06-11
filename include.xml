@@ -114,6 +114,7 @@
   <project path="system/bt" name="android_system_bt" revision="9-caf" remote="statix" />
   <project path="system/core" name="android_system_core" revision="9-caf" remote="statix" />
   <project path="system/nfc" name="android_system_nfc" revision="9-caf" remote="statix" />
+  <project path="system/vold" name="android_system_vold" remote="statix" revision="9" />
   
   <!-- qcom stuffses -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="9-caf" remote="statix" />
