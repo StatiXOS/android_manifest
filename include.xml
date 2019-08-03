@@ -8,10 +8,6 @@
   <remote  name="statix"
            fetch="https://github.com/StatiXOS" />
 
-  <!-- CAF remote -->
-  <remote  name="caf"
-           fetch="https://source.codeaurora.org/" />
-
   <!-- GitLab remote -->
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
@@ -104,7 +100,6 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" revision="9-caf" remote="statix" />
 
   <!-- external repos -->
-  <project path="external/bson" name="external/gigabyte/platform/external/bson" remote="caf" revision="caf/LA.AF.1.1.1_rb1.18" />
   <project path="external/json-c" name="android_external_json-c" remote="statix" revision="9-caf" />
   <project path="external/libncurses" name="android_external_libncurses" revision="9-caf" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" revision="9-caf" remote="statix" />
