@@ -12,6 +12,7 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <project path="art" name="android_art" remote="statix" revision="9" />
   <project path="build/make" name="android_build" remote="statix" revision="9" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
