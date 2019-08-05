@@ -102,6 +102,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/google-api-services-storage" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/python/Pillow" />
   <remove-project name="platform/external/python/appdirs" />
   <remove-project name="platform/external/python/cachetools" />
