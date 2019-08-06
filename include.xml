@@ -82,6 +82,7 @@
   <project path="external/google" name="android_external_google" remote="statix" revision="9" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" revision="9" />
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" remote="statix" revision="9" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="statix" revision="9-caf" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="statix" revision="9" />
