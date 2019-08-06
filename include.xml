@@ -60,7 +60,7 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
   <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="9" />
 
-  <project path="bionic" name="android_bionic" remote="statix" revision="9-caf" />
+  <project path="bionic" name="android_bionic" remote="statix" revision="9" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="9" />
 
