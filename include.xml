@@ -36,6 +36,7 @@
   <project path="bionic" name="android_bionic" remote="statix" revision="9" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="9" />
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" revision="9" />
+  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" revision="9" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="statix" revision="9" />
