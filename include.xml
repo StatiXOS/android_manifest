@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- StatiXOS GitHub -->
+  <remote  name="statix"
+           revision="10-caf"
+           fetch="https://github.com/stx-staging" />
+
+  <!-- GitLab remote -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <!-- Apps -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="statix" revision="10" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="statix" revision="10" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Hardware -->
+  <project path="hardware/ril" name="android_hardware_ril" remote="statix" revision="10" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="10-caf-8996" remote="statix" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="10-caf-8996" remote="statix"  />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="10-caf-8996" remote="statix" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="statix" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="statix" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="statix" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="statix" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="statix" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="statix" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="statix" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="statix" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="statix" />
+
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="10" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="statix" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="statix" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="10" />
+
+</manifest>
