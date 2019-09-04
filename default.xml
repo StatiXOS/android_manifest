@@ -768,4 +768,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- include custom manifests -->
+  <include name="remove.xml" />
+
 </manifest>
