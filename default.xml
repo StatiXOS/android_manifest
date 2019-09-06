@@ -770,5 +770,6 @@
 
   <!-- include custom manifests -->
   <include name="remove.xml" />
+  <include name="include.xml" />
 
 </manifest>
