@@ -69,4 +69,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <!-- System -->
+  <remove-project name="platform/system/sepolicy" />
+
 </manifest>
