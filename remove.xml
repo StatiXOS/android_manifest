@@ -75,7 +75,6 @@
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Nfc" />
