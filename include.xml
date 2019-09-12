@@ -33,6 +33,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix" /> 
+
   <!-- Hardware -->
   <project path="hardware/ril" name="android_hardware_ril" remote="statix" revision="10" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
