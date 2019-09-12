@@ -59,6 +59,9 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
