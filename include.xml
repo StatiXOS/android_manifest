@@ -36,6 +36,9 @@
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="statix" />
 
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+
   <!-- System -->
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
