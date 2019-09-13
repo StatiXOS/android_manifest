@@ -68,6 +68,7 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="10" />
 
   <!-- Vendor -->
