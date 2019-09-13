@@ -54,6 +54,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" revision="10"/>
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="10"/>
 
   <!-- Hardware repos -->
