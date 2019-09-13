@@ -14,6 +14,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- ROM misc -->
+  <project path="art" name="android_art" remote="statix" revision="10" />
+
   <!-- Apps -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="10" remote="statix" />
@@ -46,6 +49,14 @@
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="statix" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="statix" />
+
+  <!-- External -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" revision="10"/>
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="10"/>
+
+  <!-- Hardware repos -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="statix" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="statix" />

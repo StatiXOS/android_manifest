@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ROM misc -->
+  <remove-project name="platform/art" />
+
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -54,6 +57,12 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/ril" />
