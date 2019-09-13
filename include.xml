@@ -14,6 +14,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- ROM misc -->
+  <project path="art" name="android_art" remote="statix" />
+
   <!--Apps -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
 
@@ -31,6 +34,12 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- External -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
