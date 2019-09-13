@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- ART -->
+  <remove-project name="platform/art" />
+
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -57,6 +60,12 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/display" />
