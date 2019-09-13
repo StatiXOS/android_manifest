@@ -40,6 +40,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
