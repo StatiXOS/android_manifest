@@ -8,7 +8,7 @@
   <!-- StatiXOS GitHub -->
   <remote  name="statix"
            revision="10"
-           fetch="https://github.com/stx-staging" />
+           fetch="https://github.com/StatiXOS" />
 
   <!-- GitLab remote -->
   <remote name="gitlab"
