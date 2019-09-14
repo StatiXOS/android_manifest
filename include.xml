@@ -54,6 +54,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="statix" />
 
   <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" revision="10"/>
 
   <!-- Frameworks -->
