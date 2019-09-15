@@ -69,7 +69,9 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="statix" />
