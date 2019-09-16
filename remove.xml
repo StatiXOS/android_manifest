@@ -59,6 +59,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Frameworks -->
@@ -104,6 +105,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 
 </manifest>
