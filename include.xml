@@ -61,6 +61,7 @@
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" remote="statix" />
+  <project path="external/selinux" name="android_external_selinux" remote="statix" revision="10"/>
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" revision="10"/>
 
   <!-- Frameworks -->
@@ -72,6 +73,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="statix" />
+  <project path="system/core" name="android_system_core" remote="statix" revision="10" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="10" />
 
   <!-- Vendor -->
