@@ -40,6 +40,7 @@
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix" /> 
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="10-caf-legacy-um" />
 
   <!-- Hardware -->
   <project path="hardware/ril" name="android_hardware_ril" remote="statix" />
