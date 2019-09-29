@@ -70,6 +70,11 @@
   <remove-project name="platform/hardware/qcom/media" />
 
   <!-- Packages -->
+<<<<<<< HEAD   (101278 manifest: remove some more aosp apps)
+=======
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Nfc" />
+>>>>>>> CHANGE (dafeb8 manifest: track our own custom bt app)
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/ThemePicker" />
