@@ -70,6 +70,7 @@
   <remove-project name="platform/hardware/qcom/media" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/ThemePicker" />
