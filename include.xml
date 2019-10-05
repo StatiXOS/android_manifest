@@ -86,6 +86,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="statix" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="10" />
 
