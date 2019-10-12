@@ -3,6 +3,7 @@
 
   <!-- ROM misc -->
   <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
 
   <!-- Build -->
   <remove-project name="platform/build" />
