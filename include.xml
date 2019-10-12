@@ -14,6 +14,11 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- CAF -->
+  <remote name="caf"
+          fetch="https://source.codeaurora.org/quic/la"
+          revision="refs/tags/LA.UM.8.1.r1-09500-sm8150.0" />
+
   <!-- ROM misc -->
   <project path="art" name="android_art" remote="statix" revision="10" />
 
@@ -83,12 +88,13 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="10" />
 
   <!-- Vendor -->
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="statix" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="statix" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" remote="caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="10" />
 
 </manifest>
