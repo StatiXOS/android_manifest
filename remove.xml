@@ -99,5 +99,6 @@
 
   <!-- System -->
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/extras" />
 
 </manifest>
