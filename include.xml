@@ -87,6 +87,7 @@
   <project path="system/bt" name="android_system_bt" remote="statix" />
   <project path="system/core" name="android_system_core" remote="statix" revision="10" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="10" />
+  <project path="system/extras" name="android_system_extras" remote="statix" revision="10" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
