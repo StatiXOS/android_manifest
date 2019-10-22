@@ -101,4 +101,11 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/extras" />
 
+  <!-- CAF -->
+  <remove-project name="platform/bionic" />
+
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
 </manifest>
