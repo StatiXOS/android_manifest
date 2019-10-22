@@ -101,4 +101,24 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/extras" />
 
+  <!-- CAF -->
+  <remove-project name="platform/bionic" />
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
 </manifest>
