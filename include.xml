@@ -38,6 +38,7 @@
   <!-- Framework -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
