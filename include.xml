@@ -45,6 +45,7 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="statix" />
 
   <!-- Hardware repos -->
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
