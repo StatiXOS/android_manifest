@@ -11,12 +11,6 @@ Be sure to check the manifest branch depending on your device.
 repo init -u https://github.com/StatiXOS/android_manifest.git -b 10
 ```
 
-### OR ###
-```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b 10-caf
-```
-depending on your device.
-
 ## Sync Source ##
 ```bash
 repo sync -c -f  --no-tag --no-clone-bundle -j$(nproc --all)
