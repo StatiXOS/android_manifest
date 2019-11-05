@@ -56,6 +56,9 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="statix" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
 
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
+
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
