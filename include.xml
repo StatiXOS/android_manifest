@@ -75,8 +75,9 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  /> 
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="10-legacy-um" />
+  <project path="devie/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/ril" name="android_hardware_ril" remote="statix" />
