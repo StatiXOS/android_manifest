@@ -62,6 +62,7 @@
   <project path="system/extras" name="android_system_extras" remote="statix" />
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix"  />
+  <project path="vendor/support" name="android_vendor_support" remote="statix" />
 
   <!-- CAF additions -->
   <!-- CAF remote -->
