@@ -71,7 +71,7 @@
   <remove-project name="platform/external/google-fonts/arvo" />
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
-  <remove-project name="platform/external/google-fonts/zilla-slab" />  
+  <remove-project name="platform/external/google-fonts/zilla-slab" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/av" />
