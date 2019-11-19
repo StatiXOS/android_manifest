@@ -126,6 +126,7 @@
   <project path="system/core" name="android_system_core" remote="statix" />
 
   <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" remote="caf" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform/vendor/nxp/opensource/external/libnfc-nci" remote="caf" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform/vendor/nxp/opensource/frameworks" remote="caf" />
@@ -138,5 +139,4 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
 </manifest>
