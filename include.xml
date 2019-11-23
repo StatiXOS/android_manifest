@@ -111,7 +111,6 @@
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" />
   <project path="hardware/qcom-caf/camera" name="android_hardware_qcom_camera" remote="statix" />
-  <project path="hardware/qcom-caf/gps" name="android_hardware_qcom_gps" remote="statix" />
   <project path="hardware/qcom-caf/keymaster" name="android_hardware_qcom_keymaster" remote="statix" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" />
 
