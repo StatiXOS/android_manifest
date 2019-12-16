@@ -64,6 +64,9 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="statix" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
 
+  <!-- Providers -->
+  <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="statix" />
+
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
