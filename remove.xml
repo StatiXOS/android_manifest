@@ -111,6 +111,7 @@
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/Gallery" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
