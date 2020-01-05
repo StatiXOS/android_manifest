@@ -134,6 +134,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="statix" />
   <project path="system/core" name="android_system_core" remote="statix" />
+  <project path="system/qcom" name="android_system_qcom" remote="statix" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
