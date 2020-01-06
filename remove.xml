@@ -92,6 +92,7 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
