@@ -72,8 +72,9 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- System -->
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix"  />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
   <project path="system/extras" name="android_system_extras" remote="statix" />
+  <project path="system/vold" name="android_system_vold" remote="statix" />
 
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix"  />
