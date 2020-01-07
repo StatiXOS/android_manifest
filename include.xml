@@ -84,7 +84,7 @@
   <!-- CAF remote -->
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.UM.8.1.r1-10700-sm8150.0" />
+          revision="refs/tags/LA.UM.8.1.r1-13000-sm8150.0" />
 
   <project path="bionic" name="android_bionic" remote="statix" />
 
@@ -140,8 +140,8 @@
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform/vendor/nxp/opensource/external/libnfc-nci" remote="caf" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform/vendor/nxp/opensource/frameworks" remote="caf" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="statix" />
-  <project path="vendor/nxp/opensource/halimpl" name="platform/vendor/nxp/opensource/halimpl" remote="caf" revision="refs/tags/LA.UM.8.3.r1-06600-sdm845.0" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="platform/vendor/nxp/opensource/hidlimpl" remote="caf" revision="refs/tags/LA.UM.8.3.r1-06600-sdm845.0" />
+  <project path="vendor/nxp/opensource/halimpl" name="platform/vendor/nxp/opensource/halimpl" remote="caf" revision="refs/tags/LA.UM.8.3.r1-07100-sdm845.0" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="platform/vendor/nxp/opensource/hidlimpl" remote="caf" revision="refs/tags/LA.UM.8.3.r1-07100-sdm845.0" />
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="statix" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
