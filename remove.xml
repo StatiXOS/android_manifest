@@ -69,6 +69,7 @@
   <remove-project name="device/google/coral-sepolicy" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
