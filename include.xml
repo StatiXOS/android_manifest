@@ -16,6 +16,7 @@
 
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
+  <project path="libcore" name="android_libcore" remote="statix" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" >

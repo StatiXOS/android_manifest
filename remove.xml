@@ -3,6 +3,7 @@
 
   <!-- ART -->
   <remove-project name="platform/art" />
+  <remove-project name="platform/libcore" />
 
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
