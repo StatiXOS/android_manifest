@@ -22,6 +22,7 @@
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
   <project path="libcore" name="android_libcore" remote="statix" />
+  <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="gitlab" />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" >
