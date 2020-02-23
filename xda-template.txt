@@ -1,0 +1,36 @@
+Generic Thread Title: [ROM][10][OFFICIAL][<DEVICE>] StatiXOS <version>
+
+[CENTER]
+[img]https://camo.githubusercontent.com/9e64acc9215b0a5044c28f7348e57200462850a9/68747470733a2f2f692e696d6775722e636f6d2f6f734e7956656b2e706e67[/img]
+[SIZE="5"][b]StatiXOS for <DEVICE> (codename)[/b][/SIZE]
+
+[SIZE="4"][b]What is this?[/b][/SIZE]
+[SIZE="3"]StatiXOS is a custom ROM based on the Android Open Source Project aiming to be minimal while providing quality of life improvements and up to date security patches.[/SIZE]
+
+[SIZE="4"][b]Known issues[/b][/SIZE]
+[SIZE="3"]<issues>[/SIZE]
+
+[SIZE="4"][b]Features[/b][/SIZE]
+[SIZE="3"][url="https://del.dog/statix-features"][b][u]Feature List[/u][/b][/url][/SIZE]
+
+[SIZE="4"][b]Download StatiXOS here[/b][/SIZE]
+[SIZE="3"][url="https://sourceforge.net/projects/statixos/files/"][b][u]Download StatiXOS[/u][/b][/url][/SIZE]
+
+[SIZE="4"][B]GApps can be found here[/B][/SIZE]
+[SIZE="3"][url="https://opengapps.org"][b][u]Download GApps from OpenGapps[/u][/b][/url][/SIZE]
+
+[SIZE="4"][b]Flashing Instructions[/b][/SIZE]
+[SIZE="3"][b]<instructions>[/b][/SIZE]
+[SIZE="3"][b]<instructions>[/b][/SIZE]
+[SIZE="3"][b]<instructions>[/b][/SIZE]
+[SIZE="3"][b]<instructions>[/b][/SIZE]
+
+[SIZE="4"][b]Stay in touch[/b][/SIZE]
+[SIZE="3"][url="https://t.me/StatiXOS"][b][u]Our Telegram channel[/u][/b][/url][/SIZE]
+[/CENTER]
+
+[LEFT][SIZE="3"][list]
+[*][b]Android OS version:[/b] 10.0.0_r27
+[*][b]Security patch level:[/b] February 2020
+[*][b]Source code:[/b] [url=https://github.com/StatiXOS]https://github.com/StatiXOS[/url]
+[/list][/SIZE][/LEFT]
