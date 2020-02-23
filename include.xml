@@ -61,7 +61,7 @@
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="statix" revision="9" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="statix" revision="9" />
-  <project path="prebuilts/clang/host/linux-x86" name="StatiXOS/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="9" />
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
 
   <project path="bionic" name="android_bionic" remote="statix" revision="9" />
   <project path="system/extras" name="android_system_extras" remote="statix" revision="9" />
