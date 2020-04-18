@@ -42,6 +42,7 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="statix" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="statix" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="statix" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
