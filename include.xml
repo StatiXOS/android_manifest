@@ -14,6 +14,11 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- Git.rip -->
+  <remote name="gitrip"
+          fetch="https://git.rip/StatiXOS/"
+          revision="10" />
+
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
   <project path="libcore" name="android_libcore" remote="statix" />
@@ -182,6 +187,6 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
 
   <!--GApps-->
-  <project path="vendor/google/gapps" name="android_vendor_google_gapps" remote="statix" />
+  <project path="vendor/google/gapps" name="android_vendor_google_gapps" remote="gitrip" />
 
 </manifest>
