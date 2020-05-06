@@ -112,7 +112,7 @@
   <!-- CAF -->
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.UM.8.1.r1-14300-sm8150.0" />
+          revision="refs/tags/LA.UM.8.1.r1-14900-sm8150.0" />
 
   <project path="bionic" name="android_bionic" remote="statix" />
 
