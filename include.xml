@@ -48,6 +48,8 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="statix" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="statix" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="statix" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
