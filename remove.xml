@@ -151,4 +151,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
+  <!-- Platform_Testing -->
+  <remove-project name="platform/platform_testing" />
+
 </manifest>
