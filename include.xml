@@ -196,4 +196,7 @@
   <!--GApps-->
   <project path="vendor/google/gapps" name="android_vendor_google_gapps" remote="gitrip" />
 
+  <!-- Platform_Testing -->
+  <project path="platform_testing" name="android_platform_testing" remote="statix" />
+
 </manifest>
