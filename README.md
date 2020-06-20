@@ -1,7 +1,7 @@
 [<center><img src="https://i.imgur.com/osNyVek.png" height="50%" width="50%;"/></center>](https://github.com/StatiXOS)
 
 ## Building Android ##
-[Setting Up Build Environment](https://raw.githubusercontent.com/nathanchance/Android-Tools/master/Guides/Building_AOSP.txt)
+[Setting Up Build Environment](https://itz63c.github.io/posts/android-build-env/)
 
 ## Repo Init ##
 ```bash
