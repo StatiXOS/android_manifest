@@ -70,6 +70,7 @@
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
