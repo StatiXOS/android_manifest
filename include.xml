@@ -45,6 +45,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+
   <!-- External -->
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />  
