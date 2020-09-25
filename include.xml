@@ -57,6 +57,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
