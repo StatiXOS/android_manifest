@@ -87,6 +87,9 @@
   <project path="vendor/support" name="android_vendor_support" remote="statix" />
 
   <!-- Below we have some CAF stuff -->
+  <!-- Apps -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
+
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="statix" revision="10-legacy" />
@@ -99,6 +102,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
 
   <!-- Hardware -->
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" >
     <!-- Add guard for AOSP hardware/qcom directory. -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
