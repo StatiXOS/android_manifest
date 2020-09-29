@@ -142,7 +142,7 @@
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-05600-qssi.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-05600-qssi.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
   <project path="vendor/qcom/opensource/usb" name="platform/vendor/qcom-opensource/usb" remote="caf" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
