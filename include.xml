@@ -104,6 +104,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
