@@ -99,7 +99,7 @@
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy" remote="statix" revision="11-vendor" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="statix" revision="10-legacy" />
+  <!-- <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="statix" revision="10-legacy" /> -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="11-legacy-um" />
 
   <!-- External -->
