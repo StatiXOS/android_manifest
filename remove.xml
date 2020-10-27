@@ -104,6 +104,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />

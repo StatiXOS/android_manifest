@@ -67,6 +67,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="statix" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="statix" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="statix" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
   <!-- Manifest -->
