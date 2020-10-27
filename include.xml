@@ -62,6 +62,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="statix" />
