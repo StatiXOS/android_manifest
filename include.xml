@@ -76,8 +76,10 @@
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/LocalUpdater" name="android_packages_apps_LocalUpdater" remote="statix" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="statix" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="statix" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="statix" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
@@ -115,6 +117,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" />
 
   <!-- Hardware -->
