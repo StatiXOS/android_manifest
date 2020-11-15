@@ -129,6 +129,9 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />

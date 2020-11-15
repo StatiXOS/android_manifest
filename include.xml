@@ -83,9 +83,11 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
   <project path="packages/apps/StatiXOSWalls" name="android_packages_apps_StatiXOSWalls" remote="statix" />
 
-
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="statix" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
