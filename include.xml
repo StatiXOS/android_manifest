@@ -25,6 +25,11 @@
           fetch="https://source.codeaurora.org/quic/la"
           revision="refs/tags/LA.UM.9.1.r1-06700-SMxxx0.0" />
 
+  <!-- Wireguard -->
+  <remote name="zx2c4"
+          fetch="https://git.zx2c4.com/"
+          revision="master" />
+
   <!--ART-->
   <project path="art" name="android_art" remote="statix" />
 
@@ -157,6 +162,9 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="statix" />
+
+  <!-- Wireguard -->
+  <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
