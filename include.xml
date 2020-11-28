@@ -17,8 +17,7 @@
 
   <!-- Git.rip -->
   <remote name="gitrip"
-          fetch="https://git.rip/StatiXOS/"
-          revision="11" />
+          fetch="https://git.rip/" />
 
   <!-- Code Aurora Forums -->
   <remote name="caf"
