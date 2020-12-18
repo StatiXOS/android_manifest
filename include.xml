@@ -50,11 +50,12 @@
 
   <!-- Device -->
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="statix" />
 
   <!-- External -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />  
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
@@ -162,6 +163,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-07100-qssi.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
