@@ -50,6 +50,7 @@
 
   <!-- Device -->
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="statix" />
 
   <!-- External -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
@@ -165,5 +166,6 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
   <project path="vendor/qcom/opensource/usb" name="platform/vendor/qcom-opensource/usb" remote="caf" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
+  <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="statix" />
 
 </manifest>
