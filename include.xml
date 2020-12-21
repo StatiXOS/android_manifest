@@ -74,6 +74,7 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- Packages -->
+  <project path="packages/apps/AuxiliaryKeyHandler" name="android_packages_apps_AuxiliaryKeyHandler" remote="statix" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/LocalUpdater" name="android_packages_apps_LocalUpdater" remote="statix" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="statix" />
