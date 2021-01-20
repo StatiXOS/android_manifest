@@ -173,7 +173,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/qcom/opensource/usb" name="platform/vendor/qcom-opensource/usb" remote="caf" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="statix" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="statix" />
