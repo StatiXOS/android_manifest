@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="11"
+           fetch="https://github.com/StatiXOS/" />
+           
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />    
+           
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
+  <project path="packages/apps/LocalUpdater" name="android_packages_apps_LocalUpdater" remote="statix" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+  
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+  
+  
+  </manifest>
