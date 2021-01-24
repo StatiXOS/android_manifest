@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="11"
+           fetch="https://github.com/StatiXOS/" />
+
+  <!-- GitHub (StatixOS) (SSH) -->
+  <remote name="statix-ssh"
+          fetch="ssh://git@github.com/StatiXOS" />
+
+  <!--Framework-->
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+
+  <!--Apps-->
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
+  <project path="packages/apps/LocalUpdater" name="android_packages_apps_LocalUpdater" remote="statix" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+
+  <!--Statix-->
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+
+  <project path="crowdin" name="crowdin" remote="statix-ssh" revision="main" />
+  <project path="manifest" name="android_manifest" remote="statix" />
+</manifest>
