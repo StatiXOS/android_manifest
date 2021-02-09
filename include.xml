@@ -120,6 +120,7 @@
 
   <!-- External -->
   <project path="external/json-c" name="android_external_json-c" remote="statix" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" />

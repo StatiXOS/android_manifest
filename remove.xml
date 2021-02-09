@@ -88,6 +88,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/arm-optimized-routines" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
