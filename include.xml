@@ -3,12 +3,7 @@
 
   <!-- Github -->
   <remote  name="github"
-           fetch="https://github.com/" />
-
-  <!-- GitHub (StatiXOS) -->
-  <remote  name="statix"
-           revision="11"
-           fetch="https://github.com/StatiXOS/" />
+           fetch=".." />
 
   <!-- GitLab (StatiXOS) -->
   <remote name="gitlab"
@@ -25,13 +20,13 @@
           revision="refs/tags/LA.UM.9.1.r1-06700-SMxxx0.0" />
 
   <!-- ART -->
-  <project path="art" name="android_art" remote="statix" />
+  <project path="art" name="StatiXOS/android_art" remote="github" />
 
   <!-- Bionic -->
-  <project path="bionic" name="android_bionic" remote="statix" />
+  <project path="bionic" name="StatiXOS/android_bionic" remote="github" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
+  <project path="build/make" name="StatiXOS/android_build" remote="github" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -40,96 +35,96 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" >
+  <project path="build/soong" name="StatiXOS/android_build_soong" remote="github" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Development -->
-  <project path="development" name="android_development" remote="statix" />
+  <project path="development" name="StatiXOS/android_development" remote="github" />
 
   <!-- Device -->
-  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/statix/sepolicy" name="StatiXOS/android_device_statix_sepolicy" remote="github" />
 
   <!-- External -->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
-  <project path="external/selinux" name="android_external_selinux" remote="statix" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+  <project path="external/e2fsprogs" name="StatiXOS/android_external_e2fsprogs" remote="github" />
+  <project path="external/gptfdisk" name="StatiXOS/android_external_gptfdisk" remote="github" />
+  <project path="external/libnfc-nxp" name="StatiXOS/android_external_libnfc-nxp" remote="github" />
+  <project path="external/selinux" name="StatiXOS/android_external_selinux" remote="github" />
+  <project path="external/tinycompress" name="StatiXOS/android_external_tinycompress" remote="github" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+  <project path="frameworks/av" name="StatiXOS/android_frameworks_av" remote="github" />
+  <project path="frameworks/base" name="StatiXOS/android_frameworks_base" remote="github" />
+  <project path="frameworks/native" name="StatiXOS/android_frameworks_native" remote="github" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="statix" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="statix" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="statix" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="statix" />
-  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
+  <project path="hardware/interfaces" name="StatiXOS/android_hardware_interfaces" remote="github" />
+  <project path="hardware/libhardware" name="StatiXOS/android_hardware_libhardware" remote="github" />
+  <project path="hardware/qcom/display" name="StatiXOS/android_hardware_qcom_display" remote="github" />
+  <project path="hardware/qcom/gps" name="StatiXOS/android_hardware_qcom_gps" remote="github" />
+  <project path="hardware/qcom/keymaster" name="StatiXOS/android_hardware_qcom_keymaster" remote="github" />
+  <project path="hardware/qcom/media" name="StatiXOS/android_hardware_qcom_media" remote="github" />
+  <project path="hardware/statix/interfaces" name="StatiXOS/android_hardware_statix_interfaces" remote="github" />
 
   <!-- Manifest -->
-  <project path="manifest" name="android_manifest" remote="statix" />
+  <project path="manifest" name="StatiXOS/android_manifest" remote="github" />
 
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="statix" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
-  <project path="packages/apps/LocalUpdater" name="android_packages_apps_LocalUpdater" remote="statix" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="statix" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="statix" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" />
-  <project path="packages/apps/StatiXOSWalls" name="android_packages_apps_StatiXOSWalls" remote="statix" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="statix" groups="official-builds,notdefault" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
+  <project path="packages/apps/Bluetooth" name="StatiXOS/android_packages_apps_Bluetooth" remote="github" />
+  <project path="packages/apps/Launcher3" name="StatiXOS/android_packages_apps_Launcher3" remote="github" />
+  <project path="packages/apps/LocalUpdater" name="StatiXOS/android_packages_apps_LocalUpdater" remote="github" />
+  <project path="packages/apps/PermissionController" name="StatiXOS/android_packages_apps_PackageInstaller" remote="github" />
+  <project path="packages/apps/Settings" name="StatiXOS/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/SettingsIntelligence" name="StatiXOS/android_packages_apps_SettingsIntelligence" remote="github" />
+  <project path="packages/apps/SimpleDeviceConfig" name="StatiXOS/android_packages_apps_SimpleDeviceConfig" remote="github" />
+  <project path="packages/apps/StatiXOSWalls" name="StatiXOS/android_packages_apps_StatiXOSWalls" remote="github" />
+  <project path="packages/apps/ThemePicker" name="StatiXOS/android_packages_apps_ThemePicker" remote="github" />
+  <project path="packages/apps/Updater" name="StatiXOS/android_packages_apps_Updater" remote="github" groups="official-builds,notdefault" />
+  <project path="packages/apps/WallpaperPicker2" name="StatiXOS/android_packages_apps_WallpaperPicker2" remote="github" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="statix" />
+  <project path="prebuilts/abi-dumps/vndk" name="StatiXOS/android_prebuilts_abi-dumps_vndk" remote="github" />
 
   <!-- Recovery -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
+  <project path="bootable/recovery" name="StatiXOS/android_bootable_recovery" remote="github" />
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="statix" />
-  <project path="system/core" name="android_system_core" remote="statix" />
-  <project path="system/security" name="android_system_security" remote="statix" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="statix" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="statix" />
-  <project path="system/vold" name="android_system_vold" remote="statix" />
+  <project path="system/bt" name="StatiXOS/android_system_bt" remote="github" />
+  <project path="system/core" name="StatiXOS/android_system_core" remote="github" />
+  <project path="system/security" name="StatiXOS/android_system_security" remote="github" />
+  <project path="system/sepolicy" name="StatiXOS/android_system_sepolicy" remote="github" />
+  <project path="system/tools/hidl" name="StatiXOS/android_system_tools_hidl" remote="github" />
+  <project path="system/update_engine" name="StatiXOS/android_system_update_engine" remote="github" />
+  <project path="system/vold" name="StatiXOS/android_system_vold" remote="github" />
 
   <!-- Vendor -->
-  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="gitlab" />
-  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="statix" />
-  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
-  <project path="vendor/support" name="android_vendor_support" remote="statix" />
+  <project path="vendor/google/gms" name="StatiXOS/android_vendor_google_gms" remote="gitlab" />
+  <project path="vendor/google/pixel" name="StatiXOS/android_vendor_google_pixel" remote="github" />
+  <project path="vendor/statix" name="StatiXOS/android_vendor_statix" remote="github" />
+  <project path="vendor/support" name="StatiXOS/android_vendor_support" remote="github" />
 
   <!-- Below we have some CAF stuff -->
   <!-- Apps -->
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
+  <project path="packages/apps/Nfc" name="StatiXOS/android_packages_apps_Nfc" remote="github" />
 
   <!-- Device -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="statix" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy" remote="statix" revision="11-vendor" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="11-legacy-um" />
+  <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" />
+  <project path="device/qcom/sepolicy" name="StatiXOS/android_device_qcom_sepolicy" remote="github"  />
+  <project path="device/qcom/sepolicy_vndr" name="StatiXOS/android_device_qcom_sepolicy" remote="github" revision="11-vendor" />
+  <project path="device/qcom/sepolicy-legacy-um" name="StatiXOS/android_device_qcom_sepolicy" remote="github" revision="11-legacy-um" />
 
   <!-- External -->
-  <project path="external/json-c" name="android_external_json-c" remote="statix" />
-  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="statix" />
+  <project path="external/json-c" name="StatiXOS/android_external_json-c" remote="github" />
+  <project path="external/arm-optimized-routines" name="StatiXOS/android_external_arm-optimized-routines" remote="github" />
 
   <!-- Frameworks -->
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" />
+  <project path="frameworks/opt/net/ims" name="StatiXOS/android_frameworks_opt_net_ims" remote="github" />
+  <project path="frameworks/opt/telephony" name="StatiXOS/android_frameworks_opt_telephony" remote="github" />
 
   <!-- Hardware -->
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" >
+  <project path="hardware/nxp/nfc" name="StatiXOS/android_hardware_nxp_nfc" remote="github" />
+  <project path="hardware/qcom-caf/common" name="StatiXOS/android_hardware_qcom-caf_common" remote="github" >
     <!-- Add guard for AOSP hardware/qcom directory. -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- For AOSP SDM845/SM8150, we override os_pickup.mk. -->
@@ -145,43 +140,43 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" revision="10-caf" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="11-caf-8996" remote="statix" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="11-caf-8996" remote="statix"  />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="11-caf-8996" remote="statix" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="11-caf-8998" remote="statix" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="11-caf-8998" remote="statix"  />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="11-caf-8998" remote="statix" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="11-caf-sdm845" remote="statix" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="11-caf-sdm845" remote="statix"  />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="11-caf-sdm845" remote="statix" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="11-caf-sm8150" remote="statix" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="11-caf-sm8150" remote="statix"  />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="11-caf-sm8150" remote="statix" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" />
+  <project path="hardware/qcom-caf/bt" name="StatiXOS/android_hardware_qcom_bt" remote="github" revision="10-caf" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="StatiXOS/android_hardware_qcom_audio" revision="11-caf-8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996/display" name="StatiXOS/android_hardware_qcom_display" revision="11-caf-8996" remote="github"  />
+  <project path="hardware/qcom-caf/msm8996/media" name="StatiXOS/android_hardware_qcom_media" revision="11-caf-8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="StatiXOS/android_hardware_qcom_audio" revision="11-caf-8998" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/display" name="StatiXOS/android_hardware_qcom_display" revision="11-caf-8998" remote="github"  />
+  <project path="hardware/qcom-caf/msm8998/media" name="StatiXOS/android_hardware_qcom_media" revision="11-caf-8998" remote="github" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="StatiXOS/android_hardware_qcom_audio" revision="11-caf-sdm845" remote="github" />
+  <project path="hardware/qcom-caf/sdm845/display" name="StatiXOS/android_hardware_qcom_display" revision="11-caf-sdm845" remote="github"  />
+  <project path="hardware/qcom-caf/sdm845/media" name="StatiXOS/android_hardware_qcom_media" revision="11-caf-sdm845" remote="github" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="StatiXOS/android_hardware_qcom_audio" revision="11-caf-sm8150" remote="github" />
+  <project path="hardware/qcom-caf/sm8150/display" name="StatiXOS/android_hardware_qcom_display" revision="11-caf-sm8150" remote="github"  />
+  <project path="hardware/qcom-caf/sm8150/media" name="StatiXOS/android_hardware_qcom_media" revision="11-caf-sm8150" remote="github" />
+  <project path="hardware/qcom-caf/wlan" name="StatiXOS/android_hardware_qcom_wlan" remote="github" />
 
   <!-- Packages -->
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="statix" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="statix" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="statix" />
+  <project path="packages/apps/PhoneCommon" name="StatiXOS/android_packages_apps_PhoneCommon" remote="github" />
+  <project path="packages/services/Telecomm" name="StatiXOS/android_packages_services_Telecomm" remote="github" />
+  <project path="packages/services/Telephony" name="StatiXOS/android_packages_services_Telephony" remote="github" />
 
   <!-- System -->
-  <project path="system/qcom" name="android_system_qcom" remote="statix" />
+  <project path="system/qcom" name="StatiXOS/android_system_qcom" remote="github" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/codeaurora/telephony" name="StatiXOS/android_vendor_codeaurora_telephony" remote="github" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-09200-qssi.0" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="StatiXOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" />
+  <project path="vendor/qcom/opensource/dataservices" name="StatiXOS/android_vendor_qcom_opensource_dataservices" remote="github" />
+  <project path="vendor/qcom/opensource/interfaces" name="StatiXOS/android_vendor_qcom_opensource_interfaces" remote="github" />
+  <project path="vendor/qcom/opensource/power" name="StatiXOS/android_vendor_qcom_opensource_power" remote="github" />
+  <project path="vendor/qcom/opensource/vibrator" name="StatiXOS/android_vendor_qcom_opensource_vibrator" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="StatiXOS/android_vendor_qcom_opensource_bluetooth_ext" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="StatiXOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="StatiXOS/android_vendor_qcom_opensource_system_bt" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="StatiXOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="StatiXOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" />
+  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="StatiXOS/android_vendor_qcom_opensource_wfd-commonsys" remote="github" />
 
 </manifest>
