@@ -53,6 +53,7 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
