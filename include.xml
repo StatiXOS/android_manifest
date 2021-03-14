@@ -15,10 +15,6 @@
           revision="11"
           fetch="https://gitlab.com/StatiXOS" />
 
-  <!-- Git.rip -->
-  <remote name="gitrip"
-          fetch="https://git.rip/" />
-
   <!-- Code Aurora Forums -->
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
