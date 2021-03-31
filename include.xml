@@ -90,6 +90,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="statix" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
@@ -102,6 +103,9 @@
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="statix" />
   <project path="system/update_engine" name="android_system_update_engine" remote="statix" />
   <project path="system/vold" name="android_system_vold" remote="statix" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
   <!-- Vendor -->
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="gitlab" />
