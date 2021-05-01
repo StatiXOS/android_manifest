@@ -76,6 +76,8 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/compiler-rt" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/google-fonts/arbutus-slab" />
   <remove-project name="platform/external/google-fonts/arvo" />
@@ -84,15 +86,18 @@
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/honggfuzz" />
   <remove-project name="platform/external/libunwind" />
+  <remove-project name="platform/external/python/cpython2" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/libs/native_bridge_support" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -108,6 +113,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -143,6 +149,7 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/hidl" />

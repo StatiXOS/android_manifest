@@ -48,16 +48,21 @@
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- External -->
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/honggfuzz" name="android_external_honggfuzz" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="statix" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+  <project path="frameworks/libs/native_bridge_support" name="android_frameworks_libs_native_bridge_support" remote="statix" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="statix" />
 
   <!-- Hardware -->
@@ -70,6 +75,7 @@
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_display" revision="11-sm8150" remote="statix" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" remote="statix" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_media" revision="11-sm8150" remote="statix" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="statix" />
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
   <!-- Manifest -->
@@ -99,6 +105,7 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="statix" />
   <project path="system/core" name="android_system_core" remote="statix" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="statix" />
   <project path="system/security" name="android_system_security" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="statix" />
