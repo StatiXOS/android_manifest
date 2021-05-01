@@ -84,6 +84,7 @@
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libunwind" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/arm-optimized-routines" />
