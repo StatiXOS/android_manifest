@@ -48,4 +48,4 @@ We are almost there! Now to push your patch set to Gerrit, type in the following
 
 [View Code Review](https://review.statixos.com/)
 
-XDA Thread Template: https://del.dog/statix-thread-template
+[XDA Thread Template](https://downloads.statixos.com/template/template.txt)
