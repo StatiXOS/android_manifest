@@ -52,6 +52,7 @@
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- External -->
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="statix" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="statix" />
   <project path="external/dtc" name="android_external_dtc" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
