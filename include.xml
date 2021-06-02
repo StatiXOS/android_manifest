@@ -49,6 +49,7 @@
 
   <!-- External -->
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="statix" />
+  <project path="external/dtc" name="android_external_dtc" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
   <project path="external/honggfuzz" name="android_external_honggfuzz" remote="statix" />
