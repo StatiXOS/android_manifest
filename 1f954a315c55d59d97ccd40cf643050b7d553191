@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2973818_b65de6dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000048
+      },
+      "writtenOn": "2021-06-23T15:56:37Z",
+      "side": 1,
+      "message": "We don\u0027t have a way to track other GitLab repositories! :/",
+      "revId": "1f954a315c55d59d97ccd40cf643050b7d553191",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
