@@ -11,9 +11,13 @@
            fetch="../StatiXOS" />
 
   <!-- GitLab (StatiXOS) -->
-  <remote name="gitlab"
+  <remote name="stx-gitlab"
           revision="11"
           fetch="https://gitlab.com/StatiXOS" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
 
   <!-- Code Aurora Forums -->
   <remote name="caf_vendor"
@@ -122,7 +126,7 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
   <!-- Vendor -->
-  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="gitlab" />
+  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="stx-gitlab" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" >
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
