@@ -64,6 +64,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="statix" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
