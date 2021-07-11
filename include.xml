@@ -59,6 +59,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1" />
   <project path="external/honggfuzz" name="android_external_honggfuzz" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="statix" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
