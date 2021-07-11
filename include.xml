@@ -55,6 +55,8 @@
   <project path="external/dtc" name="android_external_dtc" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-18.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1" />
   <project path="external/honggfuzz" name="android_external_honggfuzz" remote="statix" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="statix" />
