@@ -52,6 +52,7 @@
 
   <!-- External -->
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="statix" />
+  <project path="external/cpu_features" name="android_external_cpu_features" remote="statix" />
   <project path="external/dtc" name="android_external_dtc" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
@@ -61,10 +62,13 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="statix" />
   <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="statix" />
+  <project path="external/openssh" name="android_external_openssh" remote="statix" />
   <project path="external/selinux" name="android_external_selinux" remote="statix" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="statix" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
