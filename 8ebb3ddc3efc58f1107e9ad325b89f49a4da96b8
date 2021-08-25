@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13315cfc_6a49d02f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000048
+      },
+      "writtenOn": "2021-08-25T17:36:57Z",
+      "side": 1,
+      "message": "Needs to be forked\nAnd we need to pick fix for char*-\u003evoid* cast",
+      "revId": "8ebb3ddc3efc58f1107e9ad325b89f49a4da96b8",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
