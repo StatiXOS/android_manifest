@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="sc-v2"
+           fetch="https://github.com/StatiXOS/" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+
+  <!-- External -->
+  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
+
+  <!-- Hardware -->
+  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="statix" />
+
+  <!-- Packages -->
+  <project path="packages/apps/StatiXOSWalls" name="android_packages_apps_StatiXOSWalls" remote="statix" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
+
+  <!-- Vendor -->
+  <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc" remote="gitlab" />
+  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="statix" />
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix">
+    <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
+  </project>
+  <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
+  <project path="vendor/support" name="android_vendor_support" remote="statix" />
+</manifest>
