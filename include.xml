@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="11"
+           fetch="https://github.com/StatiXOS/" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="statix" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />  
+
+  <!-- Vendor -->
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+
+</manifest>
