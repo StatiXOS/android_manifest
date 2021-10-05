@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch=".." />
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="sc"
+           fetch="../StatiXOS" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+
+</manifest>
+
