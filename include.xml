@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="11"
+           fetch="https://github.com/StatiXOS/" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="statix" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />  
+
+  <!-- Vendor -->
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
+
+</manifest>
