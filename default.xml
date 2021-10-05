@@ -2,11 +2,16 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (a3a3a8 Manifest for Android 13.0.0 Release 2 (TP1A.220624.021))
   <default revision="refs/tags/android-13.0.0_r2"
            remote="aosp"
            sync-j="4" />
+=======
+  <default revision="refs/tags/android-12.0.0_r2"
+           remote="aosp" />
+>>>>>>> CHANGE (fd516c manifest: Barebones StatiXOS v5.x manifest)
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1166,5 +1171,14 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+<<<<<<< HEAD   (a3a3a8 Manifest for Android 13.0.0 Release 2 (TP1A.220624.021))
   <!-- END open-source projects -->
+=======
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- StatiXOS -->
+  <include name="remove.xml" />
+  <include name="include.xml" />
+>>>>>>> CHANGE (fd516c manifest: Barebones StatiXOS v5.x manifest)
 </manifest>
