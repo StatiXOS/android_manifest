@@ -43,4 +43,56 @@
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="statix" />
+
+  <!-- Below we have some CAF stuff -->
+  <!-- Remote -->
+  <remote name="caf"
+          fetch="https://source.codeaurora.org/quic/la"
+          revision="refs/tags/LA.QSSI.11.0.r1-13300-qssi.0" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="sc-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="statix" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" >
+    <!-- Add guard for AOSP hardware/qcom directory. -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- For AOSP SDM845/SM8150, we override os_pickup.mk. -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+    <!-- Add guards for CAF repositories. -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="sc-caf" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" revision="10-caf" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="sc-caf-8998" remote="statix" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="sc-caf-8998" remote="statix"  />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="sc-caf-8998" remote="statix" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="sc-caf-sdm845" remote="statix" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="sc-caf-sdm845" remote="statix"  />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="sc-caf-sdm845" remote="statix" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8150" remote="statix" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="sc-caf-sm8150" remote="statix"  />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="sc-caf-sm8150" remote="statix" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8350" remote="statix" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="sc-caf-sm8350" remote="statix"  />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="sc-caf-sm8350" remote="statix" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="sc-caf" remote="statix" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
+
 </manifest>
