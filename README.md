@@ -1,4 +1,4 @@
-[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2020.png"/></center>](https://github.com/StatiXOS)
+[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/how-is-this.png"/></center>](https://github.com/StatiXOS)
 
 ## Building Android ##
 [Setting Up Build Environment](https://itz63c.github.io/posts/android-build-env/)
