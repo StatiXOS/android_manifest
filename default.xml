@@ -1092,6 +1092,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- StatiXOS -->
-  <include name="remove.xml" />
   <include name="include.xml" />
+  <include name="include-caf.xml" />
+  <include name="remove.xml" />
 </manifest>
