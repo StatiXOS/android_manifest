@@ -29,6 +29,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
 
