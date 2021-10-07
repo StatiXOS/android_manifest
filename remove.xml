@@ -75,6 +75,9 @@
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
 
