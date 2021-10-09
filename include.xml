@@ -36,6 +36,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
 
   <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
 
   <!-- Manifest -->

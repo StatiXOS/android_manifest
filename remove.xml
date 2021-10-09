@@ -64,6 +64,7 @@
   <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- Packages -->
