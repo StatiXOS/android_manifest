@@ -29,6 +29,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+
   <!-- External -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
@@ -38,6 +41,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
+  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="statix" />
