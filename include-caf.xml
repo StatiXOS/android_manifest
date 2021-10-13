@@ -4,7 +4,7 @@
   <!-- Remote -->
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.QSSI.11.0.r1-13300-qssi.0" />
+          revision="refs/tags/LA.QSSI.12.0.r1-04900-qssi.0" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
