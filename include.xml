@@ -30,6 +30,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/json-c" name="android_external_json-c" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Frameworks -->
