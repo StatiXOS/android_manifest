@@ -46,6 +46,9 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
 
+  <!-- Platform Testing -->
+  <project path="platform_testing" name="android_platform_testing" remote="statix" />
+
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" >
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
