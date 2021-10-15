@@ -80,4 +80,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
 
+  <!-- Platform Testing -->
+  <remove-project name="platform/platform_testing" />
+
 </manifest>
