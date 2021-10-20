@@ -37,12 +37,20 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+<<<<<<< HEAD   (2dde26 manifest: Add back cuttlefish repos)
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
   <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" />
   <project path="packages/apps/Statix/Settings" name="android_packages_apps_Statix_Settings" remote="statix" />
   <project path="packages/apps/Statix/SystemUI" name="android_packages_apps_Statix_SystemUI" remote="statix" />
   <project path="packages/apps/Statix/ThemePicker" name="android_packages_apps_Statix_ThemePicker" remote="statix" />
   <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
+=======
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="statix" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
+
+  <!-- Platform Testing -->
+  <project path="platform_testing" name="android_platform_testing" remote="statix" />
+>>>>>>> CHANGE (1d426b manifest: track our fork of WallpaperPicker2)
 
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
