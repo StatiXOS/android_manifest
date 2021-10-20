@@ -79,6 +79,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Platform Testing -->
   <remove-project name="platform/platform_testing" />
