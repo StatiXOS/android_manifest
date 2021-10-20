@@ -33,7 +33,9 @@
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- External -->
+  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/json-c" name="android_external_json-c" remote="statix" />
+  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Frameworks -->
