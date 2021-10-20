@@ -59,6 +59,12 @@
   <!-- Platform Testing -->
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
+
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix" >
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
