@@ -63,6 +63,9 @@
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
 
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
+
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
