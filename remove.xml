@@ -87,4 +87,7 @@
   <!-- Platform Testing -->
   <remove-project name="platform/platform_testing" />
 
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+
 </manifest>
