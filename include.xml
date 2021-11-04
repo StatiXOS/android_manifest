@@ -67,6 +67,9 @@
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
+
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
