@@ -19,6 +19,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8250/Android.bp" />
     <!-- Add guards for CAF repositories. -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
@@ -26,6 +28,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
   </project>
@@ -36,6 +40,7 @@
     <linkfile src="msm-4.4" dest="hardware/qcom-caf/msm8998/kernel-headers" />
     <linkfile src="msm-4.9" dest="hardware/qcom-caf/sdm845/kernel-headers" />
     <linkfile src="msm-4.14" dest="hardware/qcom-caf/sm8150/kernel-headers" />
+    <linkfile src="msm-4.19" dest="hardware/qcom-caf/sm8250/kernel-headers" />
     <linkfile src="msm-5.4" dest="hardware/qcom-caf/sm8350/kernel-headers" />
   </project>
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="sc-caf-8998" remote="statix" />
@@ -47,6 +52,9 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8150" remote="statix" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="sc-caf-sm8150" remote="statix"  />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="sc-caf-sm8150" remote="statix" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8250" remote="statix" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="sc-caf-sm8250" remote="statix"  />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="sc-caf-sm8250" remote="statix" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8350" remote="statix" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="sc-caf-sm8350" remote="statix"  />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="sc-caf-sm8350" remote="statix" />
