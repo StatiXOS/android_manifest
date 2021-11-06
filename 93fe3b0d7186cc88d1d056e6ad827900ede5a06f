@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52160498_0d8919c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000071
+      },
+      "writtenOn": "2021-11-06T14:02:33Z",
+      "side": 1,
+      "message": "Hals pushed ",
+      "revId": "93fe3b0d7186cc88d1d056e6ad827900ede5a06f",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
