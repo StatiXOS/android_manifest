@@ -68,6 +68,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
   <!-- System -->
+  <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Tools -->
