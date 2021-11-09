@@ -78,7 +78,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
   <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" revision= "sc-caf" remote="statix" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="caf_vendor" />
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" />
