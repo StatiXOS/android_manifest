@@ -16,6 +16,24 @@
       "message": "project name needs to change as well\n",
       "revId": "97a574a57d16545415b9bc8077b2c773640e9cdb",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5725acc0_382abe63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000071
+      },
+      "writtenOn": "2021-11-09T07:39:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89eec888_c8f3a342",
+      "revId": "97a574a57d16545415b9bc8077b2c773640e9cdb",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
