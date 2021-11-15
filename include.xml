@@ -46,7 +46,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
-
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_display" revision="sc-sdm845" remote="statix" />
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="statix" />
 
