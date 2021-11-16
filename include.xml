@@ -34,7 +34,10 @@
 
   <!-- External -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/json-c" name="android_external_json-c" remote="statix" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
@@ -72,6 +75,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="statix" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
