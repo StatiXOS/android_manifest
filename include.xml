@@ -64,7 +64,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
