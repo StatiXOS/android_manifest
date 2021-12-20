@@ -33,6 +33,8 @@
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- External -->
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="statix" />
+  <project path="external/armnn" name="android_external_armnn" remote="statix" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
