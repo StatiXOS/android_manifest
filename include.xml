@@ -14,6 +14,11 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- GitTea -->
+    <remote name="stx-git"
+          revision="sc-pixel"
+          fetch="http://git.statixos.com/sourajitk" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -46,6 +51,9 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+
+  <!-- Google Mobile Services -->
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="stx-git" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
