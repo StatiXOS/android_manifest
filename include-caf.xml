@@ -4,7 +4,7 @@
   <!-- Remote -->
   <remote name="caf"
           fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.QSSI.12.0.r1-04900.03-qssi.0" />
+          revision="refs/tags/LA.QSSI.12.0.r1-05800-qssi.0" />
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la/"
