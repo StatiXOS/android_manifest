@@ -53,7 +53,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="vendor_gms" remote="stx-git" />
+  <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc" remote="gitlab" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
