@@ -5,7 +5,7 @@
 
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b sc
+repo init -u https://github.com/StatiXOS/android_manifest.git -b sc-v2
 ```
 ## Sync Source ##
 ```bash
