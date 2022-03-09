@@ -16,6 +16,24 @@
       "message": "track more repos with this pls",
       "revId": "6e7beca14eec3fea3c155712df94c75f14551e52",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27129b54_003c8199",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2022-03-09T17:25:52Z",
+      "side": 1,
+      "message": "okay",
+      "parentUuid": "8e9e3b43_1d2d0443",
+      "revId": "6e7beca14eec3fea3c155712df94c75f14551e52",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
