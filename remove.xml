@@ -55,6 +55,7 @@
   <!-- External -->
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform_external_tinycompress" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
