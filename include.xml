@@ -37,6 +37,7 @@
   <project path="external/armnn" name="android_external_armnn" remote="statix" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="github" revision="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
