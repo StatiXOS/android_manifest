@@ -79,6 +79,9 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
+  <!-- Platform Testing -->
+  <remove-project name="platform/platform_testing" />
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
