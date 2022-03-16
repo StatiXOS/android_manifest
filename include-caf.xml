@@ -20,6 +20,7 @@
   <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_vendor" />
   <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_vendor" />
   <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf" />
+  <project path="external/json-c" name="android_external_json-c" remote="statix" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" >
