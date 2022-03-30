@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e993e828_ee49a129",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-30T22:45:21Z",
+      "side": 1,
+      "message": "might try modifying imagemagick instead to build the magick binary and we can mogrify that",
+      "revId": "a23d4cc1bd792ee4f9e435340055048d2d53a321",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
