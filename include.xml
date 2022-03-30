@@ -67,6 +67,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="github" revision="lineage-19.1" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
