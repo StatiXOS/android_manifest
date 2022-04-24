@@ -45,6 +45,14 @@
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="statix" />
 
+  <!-- NXP -->
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" />
+
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
