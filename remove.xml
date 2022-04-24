@@ -69,6 +69,7 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- Packages -->
