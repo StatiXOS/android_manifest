@@ -97,7 +97,7 @@
 
   <!-- Vendor -->
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc-v2" remote="gitlab" />
-  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="statix" />
+  <project path="vendor/rkicons" name="android_vendor_rkicons" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
