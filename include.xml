@@ -85,6 +85,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="13.0.0" remote="statix" clone-depth="1" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
