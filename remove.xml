@@ -62,6 +62,11 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/google-fonts/arbutus-slab" />
+  <remove-project name="platform/external/google-fonts/barlow" />
+  <remove-project name="platform/external/google-fonts/zilla-slab" />
+  <remove-project name="platform/external/google-fonts/lato" />
+  <remove-project name="platform/external/google-fonts/rubik" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
