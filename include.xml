@@ -73,6 +73,7 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
   <!-- Vendor -->
+  <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
