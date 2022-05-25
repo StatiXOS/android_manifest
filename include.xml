@@ -73,6 +73,12 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
   <!-- Vendor -->
+<<<<<<< HEAD   (a0898e manifest: Track some opensource NXP repos for source built N)
+=======
+  <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
+  <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc-v2" remote="gitlab" />
+  <project path="vendor/rkicons" name="android_vendor_rkicons" remote="statix" />
+>>>>>>> CHANGE (340092 manifest: Track our bromite repo)
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
