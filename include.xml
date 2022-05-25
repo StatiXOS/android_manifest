@@ -97,6 +97,7 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
 
   <!-- Vendor -->
+  <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc-v2" remote="gitlab" />
   <project path="vendor/rkicons" name="android_vendor_rkicons" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
