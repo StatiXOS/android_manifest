@@ -1,110 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Github -->
-  <remote  name="github"
-           fetch="https://github.com/" />
-
-  <!-- GitHub (StatiXOS) -->
-  <remote  name="statix"
-           revision="sc-v2"
-           fetch="https://github.com/StatiXOS/" />
-
-  <!-- GitLab -->
-  <remote name="gitlab"
-          fetch="https://gitlab.com/" />
-
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
-
-  <!-- Build -->
-  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-
-  <!-- Device -->
-  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
-
-  <!-- External -->
-  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="statix" />
-  <project path="external/armnn" name="android_external_armnn" remote="statix" />
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
-  <project path="external/mksh" name="android_external_mksh" remote="statix" />
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
-
-  <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" />
-
-  <!-- Hardware -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_display" revision="sc-v2-sdm845" remote="statix" />
-  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_media" revision="sc-v2-sdm845" remote="statix" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_display" revision="sc-sm8150" remote="statix" />
-  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
-
-  <!-- Manifest -->
-  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" />
-  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" />
-  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" />
-
-  <!-- NXP -->
-  <project path="manifest" name="android_manifest" remote="statix" />
-
-  <!-- Packages -->
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" />
-  <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
-  <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" />
-  <project path="packages/apps/Statix/Settings" name="android_packages_apps_Statix_Settings" remote="statix" />
-  <project path="packages/apps/Statix/SystemUI" name="android_packages_apps_Statix_SystemUI" remote="statix" />
-  <project path="packages/apps/Statix/ThemePicker" name="android_packages_apps_Statix_ThemePicker" remote="statix" />
-  <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
-
-  <!-- Platform Testing -->
-  <project path="platform_testing" name="android_platform_testing" remote="statix" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="13.0.0" remote="statix" clone-depth="1" />
-
-  <!-- System -->
-  <project path="system/core" name="android_system_core" remote="statix" />
-  <project path="system/libziparchive" name="android_system_libziparchive" remote="statix" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="statix" />
-
-  <!-- Tools -->
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
-
-  <!-- Vendor -->
-  <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
-  <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="sc-v2" remote="gitlab" />
-  <project path="vendor/rkicons" name="android_vendor_rkicons" remote="statix" />
-  <project path="vendor/statix" name="android_vendor_statix" remote="statix">
-    <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
-  </project>
-  <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
-  <project path="vendor/support" name="android_vendor_support" remote="statix" />
+    <remote name="github" fetch="https://github.com/" />
+    <remote name="statix" revision="sc-v2" fetch="https://github.com/StatiXOS/" />
+    <remote name="gitlab" fetch="https://gitlab.com/" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" revision="2e7563c7de62627c50be8e735dd480eb7ca52bb5" />
+    <project path="build/make" name="android_build" remote="statix" groups="pdk" revision="823555dce3f83ac5baf8fdb4586335211f3570ff">
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" revision="9b419ff0a5bf26b28bea19bec06cac6aea306e05">
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+    <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" revision="2e0c16b94b70f8109dc7656fccc9ecfbd4766462" />
+    <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="statix" revision="1ddf7d27b6094f915feb636e1678e0cd7e8f7122" />
+    <project path="external/armnn" name="android_external_armnn" remote="statix" revision="5540f0d9faa509b73c8673abee67f37bd0057637" />
+    <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="f4e663ffaaf30a3d4444c0ed2e2885fb9695798d" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" revision="073e8c6c08864f89bcece401a0b667e316408460" />
+    <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" revision="caa355b36535a28bb97b3f08187868a3b708e48c" />
+    <project path="external/mksh" name="android_external_mksh" remote="statix" revision="14afa28881577dcc703cccf3baf6487d7a38b024" />
+    <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="06670404ff52a7d35892a1b5a6a9192be0251116" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" revision="7cc2ab39845cc9991e4eb955bf3433832d5ec506" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="statix" revision="02c0373816077b5e215590b135f9d62a31b98e1c" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="statix" revision="2cbc477198621806e6468f69fd1480fce96aa2be" />
+    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="statix" revision="3c27c7631aac6e18d46abd8a607908d457512248" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="statix" revision="326055b2754c4f2bd1107f076712dcd7fab391ca" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" revision="e24c7541637a0e8a82e9fe22ff6a4c14fa5e4079" />
+    <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" revision="2a4fe4d41e00daa35fdfe2d53396d6790dc45924" />
+    <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_display" revision="c9afea32cda160e07248e06f028512761782b88e" remote="statix" />
+    <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_media" revision="546fd8b721fa0ec9e7a3b1deab63db1dc364d232" remote="statix" />
+    <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_display" revision="188ebc26cee32d25f300c533d1bebfc0053e168d" remote="statix" />
+    <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" revision="4c717be61fb41c22084878df8bd6da1602922d81" />
+    <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="7658703b9c17d0e8042dc0e33a921606d51bc885" />
+    <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" revision="3595f360d4c9eb43db378ec3bc2d689aff2d031e" />
+    <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" revision="b8f7e3e951b7d4430f906361eeaaed5a0d9863e7" />
+    <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" revision="c1722a3275bd9768721b2463da4f0237040cd0a0" />
+    <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" revision="acd4e715c4eee958e5abb700d7070ffbb3037bc5" />
+    <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="9794c73f5a5b37116d6a161c4252c82c7ecf0ba0" />
+    <project path="manifest" name="android_manifest" remote="statix" revision="b8928fc59c93d1f497322341d8e6ae506e29ef0b" />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" revision="eb9bd8f2796e17058944d6d2ee44f390f0e3f566" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" revision="9c5627b4af1828702210a126faf82a78992f0efe" />
+    <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="82d31b18dd2550e05f89248f128cb571eecc863a" />
+    <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" revision="a9879bc7d76ce94bbfbcf2a5b239ad1fa65a40dd" />
+    <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" revision="ff6e34c5d542d75600b2a7dd13f6e6ebe278af37" />
+    <project path="packages/apps/Statix/Settings" name="android_packages_apps_Statix_Settings" remote="statix" revision="c626511747fd7b62f489de1a2d375d98c11a2fd8" />
+    <project path="packages/apps/Statix/SystemUI" name="android_packages_apps_Statix_SystemUI" remote="statix" revision="1f1a8a4345af357af3caf4ec72ae9e9e719fd78f" />
+    <project path="packages/apps/Statix/ThemePicker" name="android_packages_apps_Statix_ThemePicker" remote="statix" revision="319ea20521c6099da16acfbd5657441bf24d7ffa" />
+    <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" revision="f0f3d6a0e9d701fe48ac38bd59e0cfed4d47b893" />
+    <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" revision="23974981a3a5e829b0a95291b5e7f05a61f434f8" />
+    <project path="platform_testing" name="android_platform_testing" remote="statix" revision="4084a9389f75fc151eb101cf239230690a224358" />
+    <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" revision="2ffd09a03179514217dbdb7305418a1c50daf677" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" revision="5c11bd6fde0e3ed15bd5fa7fa5ecbdad503881d5" remote="statix" clone-depth="1" />
+    <project path="system/core" name="android_system_core" remote="statix" revision="34e68c19b5bc3a05ffcfedfcb3faffde0389b0c5" />
+    <project path="system/libziparchive" name="android_system_libziparchive" remote="statix" revision="12aa0d48fe0849ae47b6d7f7f447bdc9ba0b1bfb" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" revision="5b72c7a68b98c5b7d61171f9680460abfaea2bfa" />
+    <project path="system/update_engine" name="android_system_update_engine" remote="statix" revision="93d2465b27c38f18f047a17b5d934ce005ace638" />
+    <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" revision="9e500aeba7ad1bb120213784444ab6e4f1e19079" />
+    <project path="vendor/bromite" name="android_vendor_bromite" revision="1a5d5137426add3c8d15d5ce471cc3035c14fce6" remote="statix" />
+    <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="106cc6a069811112caf2d7e1287f2a08d69c832e" remote="gitlab" />
+    <project path="vendor/rkicons" name="android_vendor_rkicons" remote="statix" revision="8ddbed22a0b89ce0770abae341d2473031fd4717" />
+    <project path="vendor/statix" name="android_vendor_statix" remote="statix" revision="486dc988297abdf57edfdd7d86f1d513f269a134">
+        <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
+    </project>
+    <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" revision="109b79fd0999b54d8dd0287fd38ff1897edb29ce" />
+    <project path="vendor/support" name="android_vendor_support" remote="statix" revision="d4736d66f6fd29785ac27a2191523f2f013ad784" />
 </manifest>

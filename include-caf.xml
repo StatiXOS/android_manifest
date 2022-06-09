@@ -1,85 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Remote -->
-  <remote name="caf"
-          fetch="https://source.codeaurora.org/quic/la"
-          revision="refs/tags/LA.QSSI.12.0.r1-05800-qssi.0" />
-
-  <remote name="caf_vendor"
-          fetch="https://source.codeaurora.org/quic/la/"
-          revision="refs/tags/LA.UM.10.3.r1-00300-sdm845.0" />
-
-  <!-- Device -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="sc-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="statix" />
-
-  <!-- External -->
-  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf" />
-  <project path="external/json-c" name="android_external_json-c" remote="statix" />
-
-  <!-- Hardware -->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" >
-    <!-- Add guard for AOSP hardware/qcom directory. -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- Add guards for CAF repositories. -->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-  </project>
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="sc-caf" />
-  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" revision="10-caf" />
-  <project path="hardware/qcom-caf/kernel-headers" name="android_hardware_qcom-caf_kernel-headers" remote="statix" revision="sc-caf">
-    <!-- Add guards for CAF repositories. -->
-    <linkfile src="msm-4.4" dest="hardware/qcom-caf/msm8998/kernel-headers" />
-    <linkfile src="msm-4.9" dest="hardware/qcom-caf/sdm845/kernel-headers" />
-    <linkfile src="msm-4.14" dest="hardware/qcom-caf/sm8150/kernel-headers" />
-    <linkfile src="msm-4.19" dest="hardware/qcom-caf/sm8250/kernel-headers" />
-    <linkfile src="msm-5.4" dest="hardware/qcom-caf/sm8350/kernel-headers" />
-  </project>
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="sc-caf-8998" remote="statix" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="sc-caf-8998" remote="statix"  />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="sc-caf-8998" remote="statix" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="sc-caf-sdm845" remote="statix" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="sc-caf-sdm845" remote="statix"  />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="sc-caf-sdm845" remote="statix" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8150" remote="statix" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="sc-caf-sm8150" remote="statix"  />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="sc-caf-sm8150" remote="statix" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8250" remote="statix" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="sc-caf-sm8250" remote="statix"  />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="sc-caf-sm8250" remote="statix" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="sc-caf-sm8350" remote="statix" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="sc-caf-sm8350" remote="statix"  />
-  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="sc-caf-sm8350" remote="statix" />
-  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="sc-caf" remote="statix" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" />
-
-  <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
-  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="statix" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
-  <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" />
-  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" />
-  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" />
-  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" />
+    <remote name="caf" fetch="https://source.codeaurora.org/quic/la" revision="refs/tags/LA.QSSI.12.0.r1-05800-qssi.0" />
+    <remote name="caf_vendor" fetch="https://source.codeaurora.org/quic/la/" revision="refs/tags/LA.UM.10.3.r1-00300-sdm845.0" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix" revision="066d015ab5e67aadcec045ac75517b9f4e5fc43d" />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="96f8176df7a429f37dc11988bcdd928f3aef11a3" />
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="statix" revision="894f34c02f32142d8f606f17db7d64d04995cce9" />
+    <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" revision="9598c3df9cd82abb1922d9fb35525d247bf78f14" />
+    <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_vendor" revision="c674e613ac60fcd7583ca26bbb8878eec6aec851" />
+    <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_vendor" revision="9d13412be0900689a490d08db5e3c80532064f3f" />
+    <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf" revision="0ee5afff121f9a5172dc8188e49244a592b31fba" />
+    <project path="external/json-c" name="android_external_json-c" remote="statix" revision="163313c822fea0bb0d0421e447afd0beba5967b5" />
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="statix" revision="56c4974bfcbb3b22daf065b8b23aabc076dc1462">
+        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    </project>
+    <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="08a57426e4c1388badd20b83627b109cf61735ee" />
+    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" revision="fea36146bbea530eb3f559042eca8d444ad3c3b2" />
+    <project path="hardware/qcom-caf/kernel-headers" name="android_hardware_qcom-caf_kernel-headers" remote="statix" revision="eef274be1335181a1fec5ebd206b8c5a21ebd3e1">
+        <linkfile src="msm-4.4" dest="hardware/qcom-caf/msm8998/kernel-headers" />
+        <linkfile src="msm-4.9" dest="hardware/qcom-caf/sdm845/kernel-headers" />
+        <linkfile src="msm-4.14" dest="hardware/qcom-caf/sm8150/kernel-headers" />
+        <linkfile src="msm-4.19" dest="hardware/qcom-caf/sm8250/kernel-headers" />
+        <linkfile src="msm-5.4" dest="hardware/qcom-caf/sm8350/kernel-headers" />
+    </project>
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="60852b6555d20b17c2dac1925c4b137fcc4748c0" remote="statix" />
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="79bab68503aae3c251cf8b5457a7b08a210a08a2" remote="statix" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="2c17da1377420a4e9c5202862f3054abf3976e59" remote="statix" />
+    <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="cffff24526819a4bb2c1fbace76398fcf57df86d" remote="statix" />
+    <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="ed83197a8002a8e98a1366c9f89431c973e1d1d0" remote="statix" />
+    <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="761548faf379ccd4319b7739fe7b5d775afd7e9d" remote="statix" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="63f6fc3a5366404af58447bb8d6e1f28c6be3884" remote="statix" />
+    <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="12e26ed5a2ec95826aab3db92f59b01a861e93a9" remote="statix" />
+    <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="7cf64b834302e8917c5ba96f143d1d9a05bc9f47" remote="statix" />
+    <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="072ab99958bee83073ca85e7378097b8c98c8a41" remote="statix" />
+    <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="262a15f5dcf6f040ca3b9cdabb852a97a9db4012" remote="statix" />
+    <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="e14649bacb08d4973249799d5460d8b06d4bbc29" remote="statix" />
+    <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="6ecc11c3d907b931211e3158452061aec17ff428" remote="statix" />
+    <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="6d8c1aabf3560395e777c2680ed98321026f32ae" remote="statix" />
+    <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="8a6240e0653e8d339c9c058842fda53b0894128b" remote="statix" />
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="94907f6f86826ba0298fc5c808735259bf76ca58" remote="statix" />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" revision="b0859fc062fd5bb62fab8162b78869bd0bc85740" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" revision="35b0ef60f799d4068f07bad145958fe5f1165ae4" />
+    <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" revision="ca82a6a259a46aa3470d8a2600192abc6fb364ed" />
+    <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="statix" revision="83ee6c56653491d0660dc620a9c1214fab04fceb" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="dd0a95b176c5c23ad3a768d20228b163cdb12958" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" revision="b298de21fcfef850e9e62e243e5556f86dcb6180" />
+    <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" revision="d0b3ac9dc05feef96382db3562fa188398132490" />
+    <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" revision="a891e224c47930f6819741b8e7b26d601ebf9286" />
+    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" revision="85edf12786f075398f0c3d388d1354e2a7126022" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" revision="3254395841b3d4dec4b309494dac256fe2c68aa4" />
+    <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" revision="8e5e7ff4efc2db51a54319823fcac6c4f0d8d578" />
+    <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" revision="47c5f2c90f64cf901155c6c5b4a6febfd788adc1" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" revision="8addd9b890348384a56ec47de185a77cec9d62b7" />
+    <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="statix" revision="69f7b0550973a0f6bfb3ff9a244b75dfe008c781" />
+    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" revision="3107dcd6b5c9160d31df5815a33f3d286f6ba527" />
+    <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" revision="636bbab92dded1e1e4f67f86bd1e205d9563db17" />
 </manifest>
