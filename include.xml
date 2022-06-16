@@ -14,6 +14,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- Bionic -->
+  <project path="bionic" name="android_bionic" remote="statix" />
+
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
@@ -41,6 +44,7 @@
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="statix" />
   <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
