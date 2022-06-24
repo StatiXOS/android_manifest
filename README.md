@@ -1,7 +1,7 @@
 [<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2021.png" height="50%" width="50%;" /></center>](https://github.com/StatiXOS)
 
 ## Building Android ##
-[Setting Up Build Environment](https://itz63c.github.io/posts/android-build-env/)
+Your one-stop destination for all the documentation about building Android can be found [here](https://source.android.com/setup/build/building).
 
 ## Repo Init ##
 ```bash
