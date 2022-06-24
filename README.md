@@ -16,6 +16,4 @@ repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --
 . build/envsetup.sh
 brunch statix_<DEVICE>-userdebug (or statix_<DEVICE>-user)
 ```
-
-
-XDA Thread Template: https://del.dog/statix-thread-template
+[XDA Thread Template](https://downloads.statixos.com/template/template.txt)
