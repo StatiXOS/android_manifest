@@ -92,6 +92,7 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="statix" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
   <project path="system/update_engine" name="android_system_update_engine" remote="statix" />
 
