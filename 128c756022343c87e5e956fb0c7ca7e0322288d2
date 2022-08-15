@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2acb42e3_1e1e1da7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-15T23:44:45Z",
+      "side": 1,
+      "message": "nice fetch url",
+      "revId": "128c756022343c87e5e956fb0c7ca7e0322288d2",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
