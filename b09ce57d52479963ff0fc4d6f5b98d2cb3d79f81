@@ -16,6 +16,24 @@
       "message": "you rushed the initial merge lul os i fp-d",
       "revId": "b09ce57d52479963ff0fc4d6f5b98d2cb3d79f81",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c20b4ec4_6d0e2741",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2022-08-16T01:08:46Z",
+      "side": 1,
+      "message": "just make sure you bring over the gs removals",
+      "parentUuid": "722a4ffe_92b6a733",
+      "revId": "b09ce57d52479963ff0fc4d6f5b98d2cb3d79f81",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
