@@ -45,7 +45,7 @@
   <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
 
   <!-- Vendor -->
-  <project path="vendor/statix" name="android_vendor_statix" remote="statix" >
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix" />
   <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
