@@ -16,6 +16,24 @@
       "message": "nice fetch url",
       "revId": "128c756022343c87e5e956fb0c7ca7e0322288d2",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f399eb9_96fb4774",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-16T00:37:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2acb42e3_1e1e1da7",
+      "revId": "128c756022343c87e5e956fb0c7ca7e0322288d2",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
