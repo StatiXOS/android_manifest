@@ -55,6 +55,9 @@
   <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
 
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
+
   <!-- Vendor -->
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
