@@ -115,4 +115,11 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
+  <!-- ASB -->
+  <remove-project name="platform/external/expat" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/system/bt" />
+
 </manifest>
