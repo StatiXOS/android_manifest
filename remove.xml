@@ -74,6 +74,9 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
+  <!-- Platfrom Testing -->
+  <remove-project name="platform/platform_testing" />
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
@@ -81,5 +84,6 @@
 
   <!-- System -->
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/core" />
 
 </manifest>
