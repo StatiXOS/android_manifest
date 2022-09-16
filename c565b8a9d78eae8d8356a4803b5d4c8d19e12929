@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79616fce_b34e2c29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2022-09-16T13:16:48Z",
+      "side": 1,
+      "message": "make sure you verify gms syncs on your side. it does fine on mine we can merge it then",
+      "revId": "c565b8a9d78eae8d8356a4803b5d4c8d19e12929",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
