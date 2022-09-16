@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <remote name="clo"
+          fetch="https://git.codelinaro.org/clo/la"
+          revision="refs/tags/LA.QSSI.13.0.r1-05700-qssi.0" />
+
+  <remote name="clo_vendor"
+          fetch="https://git.codelinaro.org/clo/la"
+          revision="refs/tags/LA.UM.11.2.1.r1-01900-sdm660.0" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="tm-legacy-um" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="statix" />
+
+  <!-- External -->
+  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="clo_vendor" />
+  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="clo_vendor" />
+  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="clo_vendor" />
+  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="clo" />
+  <project path="external/json-c" name="android_external_json-c" remote="statix" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-clo/common" name="android_hardware_qcom-clo_common" remote="statix" >
+    <!-- Add guard for AOSP hardware/qcom directory. -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- Add guards for clo repositories. -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-clo/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-clo/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-clo/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-clo/sm8350/Android.mk" />
+  </project>
+  <project path="hardware/qcom-clo/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="tm-clo" />
+  <project path="hardware/qcom-clo/bt" name="android_hardware_qcom_bt" remote="statix" revision="10-clo" />
+  <project path="hardware/qcom-clo/kernel-headers" name="android_hardware_qcom-clo_kernel-headers" remote="statix" revision="tm-clo">
+    <!-- Add guards for clo repositories. -->
+    <linkfile src="msm-4.4" dest="hardware/qcom-clo/msm8998/kernel-headers" />
+    <linkfile src="msm-5.4" dest="hardware/qcom-clo/sm8350/kernel-headers" />
+  </project>
+  <project path="hardware/qcom-clo/msm8998/audio" name="android_hardware_qcom_audio" revision="tm-clo-msm8998" remote="statix" />
+  <project path="hardware/qcom-clo/msm8998/display" name="android_hardware_qcom_display" revision="tm-clo-msm8998" remote="statix"  />
+  <project path="hardware/qcom-clo/msm8998/media" name="android_hardware_qcom_media" revision="tm-clo-msm8998" remote="statix" />
+  <project path="hardware/qcom-clo/sm8350/audio" name="android_hardware_qcom_audio" revision="tm-clo-sm8350" remote="statix" />
+  <project path="hardware/qcom-clo/sm8350/display" name="android_hardware_qcom_display" revision="tm-clo-sm8350" remote="statix"  />
+  <project path="hardware/qcom-clo/sm8350/media" name="android_hardware_qcom_media" revision="tm-clo-sm8350" remote="statix" />
+  <project path="hardware/qcom-clo/thermal" name="android_hardware_qcom_thermal" revision="tm-clo" remote="statix" />
+  <project path="hardware/qcom-clo/wlan" name="android_hardware_qcom_wlan" remote="statix" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="clo" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="statix" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="clo" />
+  <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="clo_vendor" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="statix" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" />
+  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" />
+</manifest>
