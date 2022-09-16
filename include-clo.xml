@@ -8,7 +8,7 @@
 
   <remote name="caf_vendor"
           fetch="https://git.codelinaro.org/clo/la"
-          revision="refs/tags/LA.UM.10.3.r1-01700-sdm845.0" />
+          revision="refs/tags/LA.UM.11.2.1.r1-01900-sdm660.0" />
 
   <!-- Device -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="tm-legacy-um" />
