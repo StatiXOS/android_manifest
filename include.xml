@@ -42,6 +42,7 @@
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="tm" remote="gitlab" clone-depth="1" />
 
   <!-- Hardware -->
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
