@@ -33,6 +33,8 @@
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
 
   <!-- External -->
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
 
   <!-- Frameworks -->
@@ -73,6 +75,9 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
 
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
