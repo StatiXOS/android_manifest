@@ -14,6 +14,11 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
+  <!-- Gitea -->
+  <remote name="gitea"
+          revision="tm"
+          fetch="https://git.statixos.com/StatiXOS" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -40,6 +45,7 @@
 
   <!-- Google Mobile Services -->
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="tm" remote="gitlab" clone-depth="1" />
+  <project path="vendor/mainline_modules" name="StatiXOS/android_vendor_mainline_modules" remote="gitea" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
