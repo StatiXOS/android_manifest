@@ -40,6 +40,7 @@
 
   <!-- Google Mobile Services -->
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="tm" remote="gitlab" clone-depth="1" />
+  <project path="vendor/mainline_modules" name="StatiXOS/android_vendor_mainline_modules" revision="tm" remote="gitlab" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
