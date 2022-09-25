@@ -37,6 +37,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
   <project path="vendor/gms" name="StatiXOS/android_vendor_google_gms" revision="tm" remote="gitlab" clone-depth="1" />
