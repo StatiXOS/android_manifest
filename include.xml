@@ -83,6 +83,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
+  <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
