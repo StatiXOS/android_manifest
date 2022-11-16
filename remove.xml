@@ -100,6 +100,22 @@
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <remove-project name="platform/prebuilts/module_sdk/AdServices" />
+  <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
+  <remove-project name="platform/prebuilts/module_sdk/Bluetooth" />
+  <remove-project name="platform/prebuilts/module_sdk/conscrypt" />
+  <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
+  <remove-project name="platform/prebuilts/module_sdk/IPsec" />
+  <remove-project name="platform/prebuilts/module_sdk/Media" />
+  <remove-project name="platform/prebuilts/module_sdk/MediaProvider" />
+  <remove-project name="platform/prebuilts/module_sdk/OnDevicePersonalization" />
+  <remove-project name="platform/prebuilts/module_sdk/Permission" />
+  <remove-project name="platform/prebuilts/module_sdk/Scheduling" />
+  <remove-project name="platform/prebuilts/module_sdk/SdkExtensions" />
+  <remove-project name="platform/prebuilts/module_sdk/StatsD" />
+  <remove-project name="platform/prebuilts/module_sdk/Uwb" />
+  <remove-project name="platform/prebuilts/module_sdk/Wifi" />
 
   <!-- Recovery -->
   <remove-project name="platform/bootable/recovery" />
