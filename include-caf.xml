@@ -10,16 +10,18 @@
           fetch="https://git.codelinaro.org/clo/la"
           revision="refs/tags/LA.VENDOR.1.0.r1-16800-WAIPIO.QSSI13.0" />
 
+  <!-- ANT -->
+  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" revision="refs/tags/LA.UM.9.2.c25-02200-SDMxx0.0" />
+  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" revision="refs/tags/LA.UM.9.2.c25-02200-SDMxx0.0" />
+  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" revision="refs/tags/LA.UM.9.2.c25-02200-SDMxx0.0" />
+  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf" />
+
   <!-- Device -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="statix" revision="tm-legacy-um" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="statix"  />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="statix" />
 
   <!-- External -->
-  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf_vendor" />
-  <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="caf" />
   <project path="external/json-c" name="android_external_json-c" remote="statix" />
 
   <!-- Hardware -->
