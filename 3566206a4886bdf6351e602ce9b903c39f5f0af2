@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c0c6cea_329e7f16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-28T03:28:59Z",
+      "side": 1,
+      "message": "just specify the revision on those repos no need to make a new remote",
+      "revId": "3566206a4886bdf6351e602ce9b903c39f5f0af2",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
