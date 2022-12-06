@@ -7,7 +7,7 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="tm"
+           revision="tm-qpr1"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->

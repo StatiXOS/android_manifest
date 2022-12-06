@@ -5,7 +5,7 @@ Your one-stop destination for all the documentation about building Android can b
 
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b tm
+repo init -u https://github.com/StatiXOS/android_manifest.git -b tm-qpr1
 ```
 ## Sync Source ##
 ```bash
