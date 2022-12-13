@@ -102,5 +102,5 @@
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
     <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" revision="tm"/>
+  <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
 </manifest>
