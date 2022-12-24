@@ -96,7 +96,6 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" revision="tm" />
 
   <!-- Vendor -->
-  <project path="vendor/bromite" name="android_vendor_bromite" revision="main" remote="statix" />
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
   <project path="vendor/partner_modules" name="sourajitk/vendor_partner_modules" remote="statix-git" revision="tm" />
   <project path="vendor/statix" name="android_vendor_statix" remote="statix">
