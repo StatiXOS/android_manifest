@@ -41,6 +41,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
   <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
