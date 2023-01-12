@@ -13,9 +13,14 @@ repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --
 ```
 ## Build Time (Linux x86_64 ONLY) ##
 ```bash
-. build/envsetup.sh
-brunch statix_<DEVICE>-userdebug (or statix_<DEVICE>-user)
+bash build.sh devicecodename -v user -j $(nproc --all)
 ```
+
+For example:
+```bash
+bash build.sh davinci -v user -j 8
+```
+
 ### Submitting Patches ###
 
 Patches are welcomed here at StatiXOS.
