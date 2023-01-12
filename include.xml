@@ -32,6 +32,9 @@
 
   <!-- Device -->
   <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/manifests" name="android_device_manifests" remote="statix" >
+    <linkfile src="build.sh" dest="build.sh" />
+  </project>
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
