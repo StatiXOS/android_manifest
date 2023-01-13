@@ -77,7 +77,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-nogki" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="tm-nogki" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" revision="tm"/>
   <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_vendor" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="statix" revision="tm" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
   <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" revision="tm" />
   <project path="vendor/qcom/opensource/pal" name="android_vendor_qcom_opensource_arpal-lx" remote="statix" revision="tm-caf-8450" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" revision="tm" />
@@ -85,6 +85,7 @@
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" revision="tm" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" revision="tm" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" revision="tm" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="statix" revision="tm" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" revision="tm"/>
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" revision="tm" />
 </manifest>
