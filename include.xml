@@ -47,7 +47,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="sourajitk/vendor_gms" remote="statix-git" clone-depth="1" />
+  <project path="vendor/gms" name="google-mobile-services" remote="gitlab" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
