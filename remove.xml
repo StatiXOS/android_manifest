@@ -77,8 +77,9 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/nxp/nfc" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Browser2" />
