@@ -65,6 +65,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
+  <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="tm" />
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
