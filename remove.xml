@@ -94,6 +94,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
 
   <!-- Platfrom Testing -->
   <remove-project name="platform/platform_testing" />
