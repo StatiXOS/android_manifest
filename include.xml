@@ -15,6 +15,9 @@
           fetch="https://gitlab.com/StatiXOS"
           revision="tm-qpr1" />
 
+  <!-- Bionic-->
+  <project path="bionic" name="android_bionic" remote="statix" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
