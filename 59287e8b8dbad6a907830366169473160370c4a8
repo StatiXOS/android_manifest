@@ -16,6 +16,23 @@
       "message": "https://github.com/KProfiles/android_packages_apps_Kprofiles",
       "revId": "59287e8b8dbad6a907830366169473160370c4a8",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "050cd1ba_cca3f3d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2023-02-11T09:55:35Z",
+      "side": 1,
+      "message": "not something we should track via our main manifest.",
+      "revId": "59287e8b8dbad6a907830366169473160370c4a8",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
