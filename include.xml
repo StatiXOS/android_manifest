@@ -40,6 +40,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
   <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
