@@ -15,6 +15,9 @@
           fetch="https://gitlab.com/StatiXOS"
           revision="tm-qpr1" />
 
+  <!-- ART -->
+  <project path="art" name="android_art" remote="statix" />
+
   <!-- Bionic-->
   <project path="bionic" name="android_bionic" remote="statix" />
 
