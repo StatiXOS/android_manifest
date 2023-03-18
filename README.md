@@ -5,7 +5,7 @@ Your one-stop destination for all the documentation about building Android can b
 
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b tm-qpr1
+repo init -u https://github.com/StatiXOS/android_manifest.git -b tm-qpr2
 ```
 ## Sync Source ##
 ```bash
@@ -39,7 +39,7 @@ Make your changes and commit with a detailed message. The commit message should 
 We are almost there! Now to push your patch set to Gerrit, type in the following in your terminal:
 
 ```bash
-    git push ssh://<username>@review.statixos.com:29418/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@review.statixos.com:29419/<project> HEAD:refs/for/<branch>
 ```
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://review.statixos.com/#/settings/))

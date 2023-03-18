@@ -7,13 +7,13 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="tm-qpr1"
+           revision="tm-qpr2"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->
   <remote name="gitlab"
           fetch="https://gitlab.com/StatiXOS"
-          revision="tm-qpr1" />
+          revision="tm-qpr2" />
 
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
