@@ -44,6 +44,10 @@
   <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
+  <project path="external/liblhdc" name="android_external_liblhdc" remote="statix" />
+  <project path="external/liblhdcdec" name="android_external_liblhdcdec" remote="statix" />
+  <project path="external/liblhdcv5" name="android_external_liblhdcv5" remote="statix" />
+  <project path="external/liblhdcv5dec" name="android_external_liblhdcv5dec" remote="statix" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
