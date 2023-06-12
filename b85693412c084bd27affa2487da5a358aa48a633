@@ -16,6 +16,23 @@
       "message": "https://github.com/statix-beryllium/hardware_qcom-caf_display\nhttps://github.com/statix-beryllium/hardware_qcom-caf_audio\nhttps://github.com/statix-beryllium/hardware_qcom-caf_media",
       "revId": "b85693412c084bd27affa2487da5a358aa48a633",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "795d69b8_539636f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2023-06-12T15:26:27Z",
+      "side": 1,
+      "message": "Seems to be fine.",
+      "revId": "b85693412c084bd27affa2487da5a358aa48a633",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
