@@ -5,7 +5,7 @@ Your one-stop destination for all the documentation about building Android can b
 
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b tm-qpr2
+repo init -u https://github.com/StatiXOS/android_manifest.git -b tm-qpr3
 ```
 ## Sync Source ##
 ```bash
@@ -44,7 +44,7 @@ We are almost there! Now to push your patch set to Gerrit, type in the following
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://review.statixos.com/#/settings/))
 * `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://review.statixos.com/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `tm`
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `tm-qpr3`
 
 [View Code Review](https://review.statixos.com/)
 
