@@ -101,10 +101,13 @@
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Platfrom Testing -->
   <remove-project name="platform/platform_testing" />

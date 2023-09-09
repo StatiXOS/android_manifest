@@ -80,6 +80,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="statix" revision="tm" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="statix" />
   <project path="packages/apps/SystemUIFlagFlipper" name="android_packages_apps_SystemUIFlagFlipper" remote="statix" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="tm" />
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
@@ -91,6 +92,8 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="statix" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="statix" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="statix" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="statix" />
 
   <!-- Platform Testing -->
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
