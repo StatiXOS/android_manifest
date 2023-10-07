@@ -7,8 +7,13 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="udc"
+           revision="tm-qpr3"
            fetch="https://github.com/StatiXOS/" />
+
+  <!-- STX-Staging -->
+  <remote  name="staging"
+	   revision="udc"
+	   fetch="https://github.com/stx-staging/" />
 
   <!-- GitLab -->
   <remote name="gitlab"
@@ -17,7 +22,7 @@
   <!-- GitLab (StatiXOS) -->
   <remote name="stx-gitlab"
           fetch="https://gitlab.com/StatiXOS"
-	  revision="udc" />
+	  revision="tm-qpr3" />
 
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
@@ -68,20 +73,20 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- NXP -->
-  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="udc"/>
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" revision="udc" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" revision="udc" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" revision="udc" />
-  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" revision="udc" />
-  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="udc" />
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="tm"/>
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" revision="tm" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" revision="tm" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" revision="tm" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" revision="tm" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="tm" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="statix" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
-  <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="statix" revision="udc" />
+  <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="statix" revision="tm" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
   <project path="packages/apps/SystemUIFlagFlipper" name="android_packages_apps_SystemUIFlagFlipper" remote="statix" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="udc" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="tm" />
   <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
   <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" />
   <project path="packages/apps/Statix/Settings" name="android_packages_apps_Statix_Settings" remote="statix" />
@@ -96,7 +101,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" revision="udc" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" revision="tm" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
@@ -107,7 +112,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Tools -->
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" revision="udc" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" revision="tm" />
 
   <!-- Vendor -->
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
