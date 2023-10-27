@@ -79,8 +79,8 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" revision="tm"/>
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="statix" revision="tm"/>
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="tm"/>
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-nogki" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="tm-nogki" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="udc"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-nogki" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" revision="udc-nogki" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="statix" revision="tm"/>
   <project path="vendor/qcom/opensource/healthd-ext" name="platform/vendor/qcom-opensource/healthd-ext" remote="caf_vendor" />
   <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
