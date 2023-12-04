@@ -4,11 +4,11 @@
   <!-- Remote -->
   <remote name="caf"
           fetch="https://git.codelinaro.org/clo/la"
-          revision="refs/tags/LA.QSSI.13.0.r1-10000-qssi.0" />
+          revision="refs/tags/LA.QSSI.14.0.r1-10300-qssi.0" />
 
   <remote name="caf_vendor"
           fetch="https://git.codelinaro.org/clo/la"
-          revision="refs/tags/LA.VENDOR.13.2.0.r1-15000-KAILUA.0" />
+          revision="refs/tags/LA.VENDOR.14.3.4.r1-01100-ANORAK.0" />
 
   <!-- ANT -->
   <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" revision="refs/tags/LA.UM.9.2.c25-02200-SDMxx0.0" />
