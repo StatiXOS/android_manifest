@@ -67,10 +67,10 @@
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="tm-caf-sm8250" remote="statix"  />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="tm-caf-sm8250" remote="statix" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="udc-caf-sm8350" remote="statix" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="tm-caf-sm8350" remote="statix"  />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="udc-caf-sm8350" remote="statix"  />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="tm-caf-sm8350" remote="statix" />
   <project path="hardware/qcom-caf/sm8450/audio" name="android_hardware_qcom_audio" revision="udc-caf-sm8450" remote="statix" />
-  <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" revision="tm-caf-sm8450" remote="statix"  />
+  <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" revision="udc-caf-sm8450" remote="statix"  />
   <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom_media" revision="tm-caf-sm8450" remote="statix" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="tm-caf" remote="statix" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" revision="tm"/>
