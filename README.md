@@ -1,4 +1,4 @@
-[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2022.png" height="50%" width="50%;" /></center>](https://github.com/StatiXOS)
+[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2023.png" height="50%" width="50%;" /></center>](https://github.com/StatiXOS)
 
 ## Building Android ##
 Your one-stop destination for all the documentation about building Android can be found [here](https://source.android.com/setup/build/building).
