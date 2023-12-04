@@ -65,7 +65,7 @@
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
   <!-- Manifest -->
-  <project path="manifest" name="tofu-stuff/android_manifest" remote="github" revision="udc" />
+  <project path="manifest" name="android_manifest" remote="statix" revision="udc" />
 
   <!-- NXP -->
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="tm"/>
