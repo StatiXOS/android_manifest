@@ -7,17 +7,12 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="udc"
+           revision="udc-qpr1"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
-
-  <!-- GitLab (StatiXOS) -->
-  <remote name="stx-gitlab"
-          fetch="https://gitlab.com/StatiXOS"
-	  revision="tm-qpr3" />
 
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
