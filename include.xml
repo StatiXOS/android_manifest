@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- GitHub (StatiXOS) -->
+  <remote  name="statix"
+           revision="udc"
+           fetch="https://github.com/StatiXOS/" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- GitLab (StatiXOS) -->
+  <remote name="stx-gitlab"
+          fetch="https://gitlab.com/StatiXOS"
+	  revision="tm-qpr3" />
+
+  <!-- ART -->
+  <project path="art" name="android_art" remote="statix" />
+
+  <!-- Bionic-->
+  <project path="bionic" name="android_bionic" remote="statix" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="statix" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="statix" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+
+  <!-- External -->
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/mksh" name="android_external_mksh" remote="statix" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="statix" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="statix" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
+
+  <!-- Google Mobile Services -->
+  <project path="vendor/gms" name="ralph950412/google-mobile-services" remote="gitlab" revision="udc" clone-depth="1" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
+  <project path="hardware/statix/compat" name="android_hardware_statix_compat" remote="statix" />
+  <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="statix" revision="udc" />
+
+  <!-- NXP -->
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="tm"/>
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" revision="tm" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" revision="tm" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" revision="tm" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" revision="tm" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="tm" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="statix" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
+  <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="statix" revision="tm" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
+  <project path="packages/apps/SystemUIFlagFlipper" name="android_packages_apps_SystemUIFlagFlipper" remote="statix" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="statix" revision="tm" />
+  <project path="packages/apps/Statix/ColorStub" name="android_packages_apps_Statix_ColorStub" remote="statix" />
+  <project path="packages/apps/Statix/Launcher" name="android_packages_apps_Statix_Launcher" remote="statix" />
+  <project path="packages/apps/Statix/Settings" name="android_packages_apps_Statix_Settings" remote="statix" />
+  <project path="packages/apps/Statix/SystemUI" name="android_packages_apps_Statix_SystemUI" remote="statix" />
+  <project path="packages/apps/Statix/ThemePicker" name="android_packages_apps_Statix_ThemePicker" remote="statix" />
+  <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="statix" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="statix" />
+
+  <!-- Platform Testing -->
+  <project path="platform_testing" name="android_platform_testing" remote="statix" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" revision="tm" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="statix" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" revision="tm" />
+
+  <!-- Vendor -->
+  <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
+  <project path="vendor/statix" name="android_vendor_statix" remote="statix">
+    <linkfile src="build/stop_scan.mk" dest="kernel/Android.mk" />
+  </project>
+  <project path="vendor/statix-prebuilts" name="android_vendor_statix-prebuilts" remote="statix" />
+</manifest>
