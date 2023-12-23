@@ -55,7 +55,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="ralph950412/google-mobile-services" remote="gitlab" revision="udc" clone-depth="1" />
+  <project path="vendor/gms" name="https://git.keksla.wtf/sourajitk/google-mobile-services" revision="udc-qpr1" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
