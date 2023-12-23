@@ -14,6 +14,10 @@
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <!-- Gitea -->
+  <remote  name="gitea"
+           fetch="https://git.keksla.wtf/" />
+
   <!-- ART -->
   <project path="art" name="android_art" remote="statix" />
 
@@ -50,7 +54,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="ralph950412/google-mobile-services" remote="gitlab" revision="udc" clone-depth="1" />
+  <project path="vendor/gms" name="sourajitk/google-mobile-services" remote="gitea" revision="udc-qpr1" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
