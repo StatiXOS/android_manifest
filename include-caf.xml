@@ -60,7 +60,7 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="tm-caf-sdm845" remote="statix" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="udc-caf-sdm845" remote="statix"  />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="tm-caf-sdm845" remote="statix" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="tm-caf-sm8150" remote="statix" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="udc-caf-sm8150" remote="statix" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="udc-caf-sm8150" remote="statix"  />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="tm-caf-sm8150" remote="statix" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="tm-caf-sm8250" remote="statix" />
