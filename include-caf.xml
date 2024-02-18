@@ -4,11 +4,11 @@
   <!-- Remote -->
   <remote name="caf"
           fetch="https://git.codelinaro.org/clo/la"
-          revision="refs/tags/LA.QSSI.14.0.r1-10300-qssi.0" />
+          revision="refs/tags/LA.QSSI.14.0.r1-12000-qssi.0" />
 
   <remote name="caf_vendor"
           fetch="https://git.codelinaro.org/clo/la"
-          revision="refs/tags/LA.VENDOR.13.2.0.r1-21700-KAILUA.QSSI14.0" />
+          revision="refs/tags/LA.VENDOR.13.2.0.r1-22200-KAILUA.QSSI14.0" />
 
   <!-- ANT -->
   <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="caf_vendor" revision="refs/tags/LA.UM.9.2.c25-02200-SDMxx0.0" />
@@ -76,7 +76,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="statix" revision="tm"/>
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" revision="tm"/>
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="statix" revision="udc"/>
   <project path="vendor/qcom/opensource/agm" name="android_vendor_qcom_opensource_agm" remote="statix" revision="udc-caf-sm8450" />
   <project path="vendor/qcom/opensource/audio" name="platform/vendor/qcom-opensource/audio" remote="caf" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="statix" revision="tm"/>
@@ -87,11 +87,11 @@
   <project path="vendor/qcom/opensource/interfaces" name="platform/vendor/qcom-opensource/interfaces" remote="caf" />
   <project path="vendor/qcom/opensource/interfaces-ext" name="android_vendor_qcom_opensource_interfaces-ext" remote="statix" revision="tm" />
   <project path="vendor/qcom/opensource/pal" name="android_vendor_qcom_opensource_arpal-lx" remote="statix" revision="udc-caf-sm8450" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" revision="tm" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="statix" revision="udc" />
   <project path="vendor/qcom/opensource/thermal-engine" name="platform/vendor/qcom-opensource/thermal-engine" remote="caf_vendor" />
-  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" revision="tm" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" revision="tm" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" revision="tm" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" revision="tm"/>
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="statix" revision="udc" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="statix" revision="udc" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" revision="udc" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="statix" revision="udc"/>
   <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" revision="tm" />
 </manifest>
