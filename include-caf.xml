@@ -43,7 +43,7 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="tm-caf" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="statix" revision="udc" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="statix" revision="10-caf" />
   <project path="hardware/qcom-caf/kernel-headers" name="android_hardware_qcom-caf_kernel-headers" remote="statix" revision="tm-caf">
     <!-- Add guards for CAF repositories. -->
