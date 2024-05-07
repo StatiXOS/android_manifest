@@ -16,6 +16,7 @@ repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --
 . build/envsetup.sh
 brunch statix_<DEVICE>-<RELEASE>-userdebug (or statix_<DEVICE>-<RELEASE>-user)
 ```
+For projects using this manifest, `<RELEASE>` is `ap1a`
 ### Submitting Patches ###
 
 Patches are welcomed here at StatiXOS.
