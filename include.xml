@@ -7,7 +7,7 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="vic"
+           revision="vic-qpr1"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->
@@ -58,7 +58,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="vic" clone-depth="1" />
+  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="vic-qpr1" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
