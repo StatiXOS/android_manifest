@@ -79,7 +79,7 @@
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="tm" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="statix" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-22.1" />
   <project path="packages/apps/BtHelper" name="android_packages_apps_BtHelper" remote="statix" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
