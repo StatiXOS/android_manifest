@@ -47,6 +47,7 @@
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
+  <project path="external/kotlinx.coroutines" name="LineageOS/android_external_kotlinx.coroutines" remote="github" revision="lineage-22.1" />
   <project path="external/mksh" name="android_external_mksh" remote="statix" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="statix" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="statix" />
