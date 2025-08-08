@@ -1,11 +1,11 @@
-[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2024.png" height="50%" width="50%;" /></center>](https://github.com/StatiXOS)
+[<center><img src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2025.png" height="50%" width="50%;" /></center>](https://github.com/StatiXOS)
 
 ## Building Android ##
 Your one-stop destination for all the documentation about building Android can be found [here](https://source.android.com/setup/build/building).
 
 ## Repo Init ##
 ```bash
-repo init -u https://github.com/StatiXOS/android_manifest.git -b vic-qpr1
+repo init -u https://github.com/StatiXOS/android_manifest.git -b bp2a
 ```
 ## Sync Source ##
 ```bash
@@ -16,7 +16,7 @@ repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --
 . build/envsetup.sh
 brunch statix_<DEVICE>-<RELEASE>-userdebug (or statix_<DEVICE>-<RELEASE>-user)
 ```
-#### For projects using this manifest, `<RELEASE>` is `ap4a`.
+#### For projects using this manifest, `<RELEASE>` is `bp2a`.
 ### Submitting Patches ###
 
 Patches are welcomed here at StatiXOS.
@@ -45,7 +45,7 @@ We are almost there! Now to push your patch set to Gerrit, type in the following
 
 * `<username>` - Your Gerrit username (which can be seen/set [here](https://review.statixos.com/#/settings/))
 * `<project>` - The git repo you are pushing to; all options can be viewed at [this link](https://review.statixos.com/#/admin/projects/)
-* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `vic-qpr1`
+* `<branch>` - The git branch your change is based on; for projects using this manifest, it is `bp2a`
 
 [View Code Review](https://review.statixos.com/)
 

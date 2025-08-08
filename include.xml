@@ -7,7 +7,7 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="vic-qpr1"
+           revision="bp2a"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->
@@ -58,7 +58,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="vic-qpr1" clone-depth="1" />
+  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="bp2a" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
@@ -79,7 +79,7 @@
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="tm" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-22.1" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-23.0" />
   <project path="packages/apps/BtHelper" name="android_packages_apps_BtHelper" remote="statix" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
@@ -97,7 +97,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="statix" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" revision="vic" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="statix" clone-depth="1" revision="bak" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="statix" />
