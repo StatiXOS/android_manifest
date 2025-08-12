@@ -100,7 +100,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Tools -->
-  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="statix" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-23.0" />
 
   <!-- Vendor -->
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
