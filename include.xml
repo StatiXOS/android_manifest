@@ -70,14 +70,6 @@
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="statix" />
 
-  <!-- NXP -->
-  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="statix" revision="tm"/>
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="statix" revision="tm" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="statix" revision="tm" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="statix" revision="tm" />
-  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="statix" revision="tm" />
-  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="statix" revision="tm" />
-
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-23.0" />
   <project path="packages/apps/BtHelper" name="android_packages_apps_BtHelper" remote="statix" />
