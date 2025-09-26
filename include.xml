@@ -61,6 +61,7 @@
   <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="bp2a" clone-depth="1" />
 
   <!-- Hardware -->
+  <project path="hardware/google/camera" name="android_hardware_google_camera" revision="bp2a" remote="statix" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
