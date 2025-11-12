@@ -7,7 +7,7 @@
 
   <!-- GitHub (StatiXOS) -->
   <remote  name="statix"
-           revision="bp2a"
+           revision="bp4a"
            fetch="https://github.com/StatiXOS/" />
 
   <!-- GitLab -->
@@ -40,10 +40,10 @@
   </project>
 
   <!-- Device -->
-  <project path="device/manifests" name="android_device_manifests" remote="statix" revision="udc">
+  <project path="device/manifests" name="android_device_manifests" remote="statix">
     <linkfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" />
+  <project path="device/statix/sepolicy" name="android_device_statix_sepolicy" remote="statix" revision="bak" />
 
   <!-- External -->
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="statix" />
@@ -58,12 +58,13 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="statix" />
 
   <!-- Google Mobile Services -->
-  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="bp2a" clone-depth="1" />
+  <project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="bp4a" clone-depth="1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="statix" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="statix" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="statix" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="statix" />
   <project path="hardware/statix/compat" name="android_hardware_statix_compat" remote="statix" />
   <project path="hardware/statix/interfaces" name="android_hardware_statix_interfaces" remote="statix" />
 
@@ -71,7 +72,7 @@
   <project path="manifest" name="android_manifest" remote="statix" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-23.0" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-23.2" />
   <project path="packages/apps/BtHelper" name="android_packages_apps_BtHelper" remote="statix" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="statix" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="statix" />
@@ -83,7 +84,7 @@
   <project path="packages/apps/Statix/Wallpapers" name="android_packages_apps_Statix_Wallpapers" remote="statix" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="statix" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="statix" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="statix" />
+  <!--project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="statix" /-->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="statix" />
 
   <!-- Platform Testing -->
@@ -98,10 +99,11 @@
   <!-- System -->
   <project path="system/core" name="android_system_core" remote="statix" />
   <project path="system/libhidl" name="android_system_libhidl" remote="statix" />
+  <project path="system/media" name="android_system_media" remote="statix" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="statix" />
 
   <!-- Tools -->
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-23.0" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-23.2" />
 
   <!-- Vendor -->
   <project path="vendor/google/interfaces" name="android_vendor_google_interfaces" remote="statix" />
